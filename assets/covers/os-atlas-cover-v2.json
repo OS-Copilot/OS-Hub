@@ -1,0 +1,27 @@
+{
+  "asset": "os-atlas-cover-v2.png",
+  "version": "V2",
+  "status": "Generated project cover; not an official logo or original project illustration.",
+  "tool": "image_gen.imagegen",
+  "mode": "Built-in image edit",
+  "userRevision": "Differentiate the new covers in palette, environment and robot details; replace the shared navy-and-gold Gothic-library treatment. Preserve each project's theme and mascot identity. Save V2 separately without overwriting V1.",
+  "prompt": "Use case: style-transfer.\nEdit target: image 1, the existing OS-Atlas project cover. Identity reference: image 2, the user's original OS-Atlas robot logo.\nUser revision: differentiate this cover strongly in color, setting and robot details. Preserve GUI grounding and the recognizable robot identity while replacing the entire night-time blue-and-gold library with a bright daylight interface-cartography studio.\nNew scene: a precise navigation robot at a daylight-lit drafting and GUI-mapping workbench. Warm ivory ceramic work surfaces, sand-colored paper-like mapping sheets, clear glass interface plates, small brushed-brass hinges and calibration tools, and crisp cobalt-blue geometric control panels. A broad rectangular window provides soft natural sunlight; background architecture is plain, airy and modern. One physical slanted drafting board in the foreground carries a fine unlabeled coordinate grid. One nearby upright pale-glass GUI panel contains generous geometric application blocks; the robot points at exactly one clearly highlighted cobalt-blue button with a thin warm amber border. A tiny precise point at the fingertip and a single short fine guide line connect the action to the target. The coordinate grid must be geometric and unlabeled, with no numbers. This is a deliberate interface-navigation and grounding workspace, not a wall of giant screens.\nMascot identity: keep the warm-ivory rounded face, black circular eyes with white highlights, friendly curved smile, curved eyebrows, swept dark head detail, and distinctive round black headset from image 2. Preserve the four-dot chest panel and blue circular badge with an abstract white upward chevron, without text. Evolve the body into a refined navigation robot: matte ivory ceramic armor, small brass fasteners, black precision joints, cobalt cuff or shoulder accents, and slim articulated fingers. Keep the ivory face instead of a dark digital face screen. Do not borrow the blue-eyed gold robots from other projects.\nPalette: mostly warm ivory-white and sand gold under daylight, with cobalt-blue accents. Restrained brass detail, very little cyan. The whole scene should appear lighter and warmer than the old cover, with clear material color separation. No starry midnight-blue atmosphere, navy-and-gold library palette, or luminous teal wall-of-screens.\nStyle: high-quality painterly illustration with tangible materials and depth: slightly textured ceramic, delicate brass machining, fibrous matte paper, clear layered glass, soft sunlit reflections, nuanced cast shadows, and modest surface wear. A refined illustrated research cover, not a flat vector diagram, emoji, sticker, or plastic logo cutout.\nComposition: square 1:1, fully opaque background. Three-quarter view with the prominent robot on the left/middle, its clear pointing gesture reaching one target button on the right, and a geometric map board in the foreground. Maintain a readable silhouette and a distinct cobalt background accent behind the ivory head. Keep the entire head and pointing hand inside the frame. The central subject and target should read in a 120-pixel thumbnail. Major recomposition of image 1 is intended.\nConstraints: no text, letters, digits, logos, labels, watermarks, trademarks or chart tick labels. No Gothic arches, arched windows, library shelves, star fields, ornamental golden walls, night lighting, dense targeting crosshairs, extra robots, or screens stacked everywhere.",
+  "references": [
+    {
+      "path": "assets/covers/os-atlas-cover-v1.png",
+      "role": "Edit target; setting and composition deliberately replaced"
+    },
+    {
+      "path": "assets/logos/os-atlas-transparent.png",
+      "role": "User-provided mascot identity reference"
+    }
+  ],
+  "generatedSource": "exec-5298d7c2-bae4-42a7-9cda-3dac75186d87.png",
+  "transparentBackground": false,
+  "postprocessing": "None. Original generated PNG copied without modification.",
+  "inspection": {
+    "reviewed": true,
+    "notes": "Bright ivory and sand-gold daylight studio with cobalt accents. Original ivory-face robot, black headset, four-dot chest panel and upward chevron are retained, with ceramic armor, brass fittings and cobalt cuffs. Physical grid drafting board and one primary glass GUI panel with a clear target button. No night library, star field or typography.",
+    "placementNote": "Final 120 px Hub placement should be inspected by the page owner."
+  }
+}

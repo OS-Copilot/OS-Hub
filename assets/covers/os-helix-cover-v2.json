@@ -1,0 +1,44 @@
+{
+  "title": "OS-Helix differentiated scene cover",
+  "version": "V2",
+  "createdOn": "2026-11-06",
+  "assetType": "Generated research-project scene cover",
+  "generatedCover": true,
+  "officialLogo": false,
+  "output": "assets/covers/os-helix-cover-v2.png",
+  "priorVersion": "assets/covers/os-helix-cover-v1.png",
+  "priorVersionPreserved": true,
+  "tool": "Built-in image_gen.imagegen",
+  "generatedFile": "exec-2a413066-cf23-4394-a455-ce990b4c779c.png",
+  "identityReference": "assets/logos/os-helix.png",
+  "userRequest": "Differentiate the projects through new environments, materials, colors and robot details. Do not reuse a unified blue-and-gold Gothic setting or merely recolor the previous image.",
+  "specificRequirements": [
+    "Deep purple, electric cyan and coral palette",
+    "Modern dark hybrid-agent control room",
+    "Floating slender robot with horizontally wide black visor",
+    "Two differentiated tool arms operating GUI glass and a code terminal",
+    "Cyan and coral streams intertwine and converge",
+    "No biological laboratory, gold or Gothic architecture"
+  ],
+  "implementedChanges": [
+    "Rebuilt the setting as a modern purple control room with smoked glass and graphite surfaces",
+    "Redesigned the robot with a slender floating tapered body and horizontal cyan indicator eyes",
+    "Differentiated the two tool arms into a GUI stylus and code-side mechanical control hand",
+    "Changed the paired workflow streams from cyan/gold to cyan/coral"
+  ],
+  "prompt": "Use case: style-transfer\nAsset type: square research-project scene cover, OS-Helix V2.\nPrimary request: Completely redesign the old cover into a MODERN dark hybrid-agent control room, with a newly differentiated slender floating robot and a purple/cyan/coral material system. This must be a new environment and silhouette design, not a recolor of the old room.\nInput images: Image 1 is the official OS-Helix robot identity reference: wide dark face visor, cyan expression, pale mechanical casing and hovering motion. Image 2 is the old V1 cover. Preserve only its research concept of one agent coordinating GUI and code; replace its architecture, furniture, palette, materials and robot proportions completely.\nNew environment: A compact modern computer-control room with deep aubergine and dark violet architecture, graphite composite surfaces, smoked glass, curved precision-machined panels and a few thin integrated light strips. Use elegant near-future industrial design with spatial depth, NOT an ornate library or castle. No historical decoration. Dim purple ambient illumination with clean electric-cyan and restrained coral reflections. One glass GUI workstation sits on the left; one code workstation sits on the right. A quieter background recedes into a dark modern equipment bay.\nRobot redesign: Make the central OS-Helix robot visibly more slender and elongated than the round mobile-agent mascot. It FLOATS in the room with a tapered lower chassis and no planted feet. Preserve the horizontally wide black face visor, now with two short expressive cyan horizontal indicator-eye slits. Pale lavender-silver ceramic/metal casing, a narrow segmented torso, a small cyan chest light, streamlined side-ear modules. The full robot is visible and physically rendered, about two fifths of the image height. It has EXACTLY TWO different articulated tool arms: the left terminates in a precise stylus-like fingertip manipulating the translucent GUI glass; the right terminates in a small mechanical keyboard/control gripper interacting with the code terminal. Give the arms different functional details without making them threatening. Friendly, focused character, not a giant round emoji head.\nHybrid workflow: The left glass screen displays a clean icon-only file/image layout and an unlabeled graphical chart. The right code screen displays distinct indented colored BAR SHAPES, never actual code glyphs. A small matching visual output appears in both to express the same shared task. A slender electric-cyan data stream and a slender coral stream flow from the two workstations, form one restrained intertwined helix in the central foreground and converge into a shared glass task object. Two graceful crossings are enough. This is computational coordination, NOT a biological DNA model.\nComposition: One complete 1:1 interior with foreground shared glass task surface, middle-distance hovering robot and side workstations, and a dark receding background. Deliberately use a modern asymmetric spatial arrangement rather than the old classical symmetrical library. Keep the robot's wide visor and the cyan/coral paired flow strongly readable at a 120px thumbnail. Two main screens only; no dense dashboard cloud.\nRendering: High-quality painterly illustration with exact mechanical drawing, polished smoked glass, satin ceramics, brushed dark metal and subtle believable reflections. Tangible refined materials and atmospheric depth. No flat sticker, no isolated logo pasted onto a background, no generic plastic toy render.\nPalette commitment: Deep violet/purple is the dominant room color; electric cyan and coral are the two signal colors. Pale lavender-silver robot. NO warm gold, brass or navy-and-gold aesthetic.\nAbsolute exclusions: NO biological lab, molecules, DNA rungs, test tubes, gothic architecture, arch windows, castles, books, plants, ornamental trim, antique furniture, globes, lanterns or gold. NO words, text, letters, numbers, watermark, brands, labels or punctuation anywhere. The code terminal must use indented colored rectangle shapes only, no braces or prompt characters. No charts with axis numbers.\nOutput: One opaque square 1:1 painted scene, visibly different in color, architecture and robot silhouette from the bright mint OpenMobile-2 cover and from the old V1 image.",
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": false,
+    "visuallyInspected": true,
+    "findings": [
+      "Complete square scene with clear central floating robot",
+      "GUI and graphical-code workstations remain distinct",
+      "Cyan and coral flows intertwine toward a common visual result",
+      "No readable letters, numbers or text observed",
+      "No biological DNA imagery, gold ornament or Gothic architecture observed"
+    ]
+  },
+  "note": "New thematic artwork for this hub, not an official original project cover or logo. Original generated pixels copied unchanged. V1 files remain untouched."
+}

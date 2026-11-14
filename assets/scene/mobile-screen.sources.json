@@ -1,0 +1,73 @@
+{
+  "asset": "mobile-screen.svg",
+  "format": "Static SVG",
+  "viewBox": "0 0 360 800",
+  "intrinsicSize": [
+    1080,
+    2400
+  ],
+  "purpose": "Interior launcher screen only; device frame and bezel are supplied by the Hub.",
+  "references": [
+    {
+      "local": ".local/references/openmobile-2/om2-appwall.js",
+      "url": "https://os-copilot.github.io/OpenMobile2-Home/static/js/om2-appwall.js",
+      "usage": "Original 16x16 app glyph paths and 11px status-strip geometry"
+    },
+    {
+      "local": ".local/references/openmobile-2/om2-appwall.css",
+      "url": "https://os-copilot.github.io/OpenMobile2-Home/static/css/om2-appwall.css",
+      "usage": "Dark ink and mint wallpaper, top-lit icon surfaces, glass sheen, and frosted dock treatment"
+    }
+  ],
+  "glyphs": [
+    "mail",
+    "calendar",
+    "map",
+    "music",
+    "folder",
+    "globe",
+    "chat",
+    "camera",
+    "image",
+    "note",
+    "check",
+    "clock",
+    "code",
+    "cloud",
+    "search",
+    "download",
+    "grid",
+    "gear",
+    "book",
+    "news",
+    "video",
+    "film",
+    "play",
+    "mic",
+    "pin",
+    "route",
+    "plane",
+    "train",
+    "car",
+    "bus",
+    "bag",
+    "cart",
+    "card",
+    "receipt",
+    "heart",
+    "compass",
+    "phone"
+  ],
+  "layout": {
+    "columns": 6,
+    "rows": 6,
+    "iconSize": 44,
+    "dockIcons": 4
+  },
+  "notes": [
+    "Hand-authored static launcher composition using the official OpenMobile glyph geometry.",
+    "No raster images, emoji, device frame, external dependencies, scripts, or performance claims.",
+    "Clock is conventional launcher sample time, not live data.",
+    "Browser rendering was reserved for the main agent."
+  ]
+}

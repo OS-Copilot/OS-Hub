@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080f1c">
+  <meta name="description" content="Explore the OS-Copilot research series: open environments, data, models, and evaluation for generalist computer-using agents.">
+  <title>OS-Copilot Series</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Newsreader:opsz,wght@6..72,400;6..72,450;6..72,500&display=swap" rel="stylesheet">
+  <script>
+    try {
+      const theme = localStorage.getItem('os-hub-theme');
+      if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inspector">Skip to project details</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-orbit" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="11" ry="5" transform="rotate(-32 12 12)"/><path d="M18 4h.01" stroke-width="3"/></symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></symbol>
+    <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20.7 13A9 9 0 0 1 11 3.3 9 9 0 1 0 20.7 13Z"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="icon-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></symbol>
+    <symbol id="icon-back" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="icon-box" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 5v9l9 5 9-5V8M12 13v9M7.5 5.5l9 5"/></symbol>
+    <symbol id="icon-chip" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="3"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v3m6-3v3M9 19v3m6-3v3M2 9h3m-3 6h3m14-6h3m-3 6h3"/></symbol>
+    <symbol id="icon-desktop" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></symbol>
+    <symbol id="icon-data" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 5v-3.5c0-1 .1-1.5-.5-2 3-.3 6-1.5 6-6A4.5 4.5 0 0 0 19 7.4c.2-1 .2-2-.2-3.1 0 0-1.2-.4-3.3 1.2a12 12 0 0 0-6 0C7.4 3.9 6.2 4.3 6.2 4.3c-.4 1.1-.4 2.1-.2 3.1a4.5 4.5 0 0 0-1.5 3.1c0 4.5 3 5.7 6 6-.6.5-.6 1.5-.5 2V22"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="OS-Copilot Series home">
+      <svg class="brand-symbol" aria-hidden="true"><use href="#icon-orbit"/></svg>
+      <span>OS-Copilot Series</span>
+    </a>
+    <nav class="header-actions" aria-label="Main navigation">
+      <div class="view-switch" role="group" aria-label="Project view">
+        <button class="view-button active" data-view="orbit" aria-pressed="true"><svg class="icon"><use href="#icon-orbit"/></svg><span>Orbit</span></button>
+        <button class="view-button" data-view="index" aria-pressed="false"><svg class="icon"><use href="#icon-grid"/></svg><span>Index</span></button>
+      </div>
+      <span class="header-divider" aria-hidden="true"></span>
+      <button class="icon-button theme-toggle" id="theme-toggle" aria-label="Switch to light mode" title="Switch to light mode"><svg class="icon"><use href="#icon-sun"/></svg></button>
+      <a class="icon-button github-link" href="https://github.com/OS-Copilot" target="_blank" rel="noopener noreferrer" aria-label="OS-Copilot on GitHub (opens in a new tab)" title="OS-Copilot on GitHub"><svg class="icon"><use href="#icon-github"/></svg></a>
+    </nav>
+  </header>
+
+  <main id="main" class="hub-layout">
+    <section class="universe" aria-labelledby="hub-title">
+      <div class="universe-heading">
+        <h1 id="hub-title">An open world<br>of computer-using agents.</h1>
+      </div>
+
+      <div id="orbit-view" class="orbit-view">
+        <div id="space" class="space" aria-label="OS-Copilot project orbits">
+          <svg id="orbit-map" class="orbit-map" viewBox="0 0 1000 740" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <radialGradient id="planet-halo"><stop stop-color="#73bbd6" stop-opacity=".12"/><stop offset="1" stop-color="#73bbd6" stop-opacity="0"/></radialGradient>
+              <linearGradient id="ring-gradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" stop-opacity=".15"/><stop offset=".5" stop-color="currentColor" stop-opacity=".85"/><stop offset="1" stop-color="currentColor" stop-opacity=".15"/></linearGradient>
+            </defs>
+            <g id="star-field" class="star-field"></g>
+            <circle cx="500" cy="370" r="260" fill="url(#planet-halo)"/>
+            <g class="orbit-tracks" fill="none">
+              <ellipse class="main-track" data-orbit="outer" cx="500" cy="370" rx="425" ry="285" transform="rotate(-8 500 370)"/>
+              <ellipse class="main-track" data-orbit="inner" cx="500" cy="370" rx="285" ry="180" transform="rotate(-16 500 370)"/>
+              <ellipse class="inner-track" cx="500" cy="370" rx="175" ry="106" transform="rotate(-16 500 370)"/>
+            </g>
+            <g class="orbital-dust" id="orbital-dust"></g>
+            <path id="selection-line" class="selection-line" d=""/>
+          </svg>
+          <button class="device-system" id="planet-home" aria-label="Show all research projects">
+            <span class="device-globe" aria-hidden="true"><img src="assets/scene/digital-globe.png" alt="" width="1254" height="1254"></span>
+            <span class="device desktop-device" id="desktop-device" aria-hidden="true">
+              <span class="desktop-screen"><span class="desktop-camera"></span><img class="desktop-display" src="assets/scene/desktop-screen.webp" alt="" width="560" height="312"><span class="desktop-chin"><i></i></span></span><span class="desktop-neck"></span><span class="desktop-foot"></span>
+            </span>
+            <span class="device phone-device" id="phone-device" aria-hidden="true"><span class="phone-rail"><i class="phone-key phone-key-power"></i><i class="phone-key phone-key-volume"></i><span class="phone-bezel"><span class="phone-screen"><img src="assets/scene/mobile-screen.svg" alt="" width="360" height="800"><i class="phone-camera"></i></span></span></span></span>
+            <span class="device browser-device" id="browser-device" aria-hidden="true"><span class="browser-tabs"><i></i><i></i><i></i><span><svg class="icon"><use href="#icon-orbit"/></svg>OS-Copilot Series</span></span><span class="browser-toolbar"><svg class="icon"><use href="#icon-back"/></svg><span><svg class="icon"><use href="#icon-orbit"/></svg>os-copilot.github.io</span></span><span class="browser-content"><span class="browser-kicker">Open research</span><span class="browser-heading">Computer-using agents.</span><span class="browser-gallery"><img src="assets/covers/os-genesis.jpeg" alt="" width="128" height="128"><img src="assets/covers/scienceboard.jpeg" alt="" width="128" height="128"><img src="assets/covers/osreward.png" alt="" width="128" height="128"></span><span class="browser-caption"><i></i>Models, data, and environments</span></span><span class="browser-pointer"><svg viewBox="0 0 24 24"><path d="m4 3 15 9-7 2-3 7Z"/></svg></span></span>
+          </button>
+          <div id="satellites" class="satellites"></div>
+          <div id="orbit-tooltip" class="orbit-tooltip" role="tooltip" hidden></div>
+        </div>
+        <div class="orbit-controls">
+          <button id="motion-toggle" class="text-button motion-toggle" aria-pressed="false"><svg class="icon"><use href="#icon-pause"/></svg><span>Pause orbit</span></button>
+        </div>
+      </div>
+
+      <div id="index-view" class="index-view" hidden>
+        <div class="index-group"><h2>All projects</h2><div id="all-projects-index"></div></div>
+      </div>
+    </section>
+
+    <aside id="inspector" class="inspector" aria-label="Research details" tabindex="-1">
+      <div id="overview-panel" class="overview-panel">
+        <h2>The collection</h2>
+        <p class="overview-description">Models, data, and environments for computer-using agents.</p>
+        <div class="research-path" id="research-path" aria-label="All research projects"></div>
+      </div>
+      <div id="project-panel" class="project-panel" hidden>
+        <button id="back-overview" class="text-button back-overview"><svg class="icon"><use href="#icon-back"/></svg>Research overview</button>
+        <div class="project-identity"><img id="project-logo" alt="" width="70" height="70"><div><span id="project-role" class="project-role"></span><h2 id="project-name"></h2></div></div>
+        <p id="project-summary" class="project-summary"></p>
+        <div class="resource-heading"><h3>Inside this project</h3><span id="resource-count" aria-hidden="true"></span></div>
+        <div id="project-resources" class="project-resources"></div>
+        <div id="project-components" class="project-components" hidden></div>
+        <div class="project-actions"><a id="project-homepage" class="primary-link" target="_blank" rel="noopener noreferrer">Visit project<svg class="icon"><use href="#icon-arrow"/></svg></a><a id="project-code" class="code-link" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#icon-github"/></svg>GitHub</a></div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="sr-only" id="selection-status" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-message">Explore the <a href="https://github.com/OS-Copilot">OS-Copilot research projects on GitHub</a>. Enable JavaScript for the interactive research map.</div></noscript>
+</body>
+</html>

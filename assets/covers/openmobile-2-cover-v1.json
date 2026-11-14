@@ -1,0 +1,35 @@
+{
+  "title": "OpenMobile-2 thematic cover",
+  "assetType": "Generated research-project scene cover",
+  "officialLogo": false,
+  "generatedCover": true,
+  "createdOn": "2026-11-06",
+  "tool": "Built-in image_gen.imagegen",
+  "output": "assets/covers/openmobile-2-cover-v1.png",
+  "generatedFile": "exec-e3f69d77-d7ed-40f3-abc0-4b656d3d1a40.png",
+  "subject": "A small robot tests phone apps in a complete workshop, with foreground phone terminals, a shared app display and native-tool controls.",
+  "identityReference": "assets/logos/openmobile-2-hd.png",
+  "styleReferences": [
+    {
+      "local": "assets/covers/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/cover.png"
+    },
+    {
+      "local": "assets/covers/agentstore-cover-v1.png",
+      "source": "Generated AgentStore thematic cover for this hub"
+    }
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: original square 1:1 research-project scene cover for OpenMobile-2, a mobile-agent project. This is new thematic cover art for a research hub, not an official logo.\nInput references: Image 1 is ONLY the OpenMobile-2 robot's identity reference. Preserve its blue-and-white articulated body, dark navy face, large cyan-ring eyes, round ears, small antenna, and recognizable upright smartphone. Images 2 and 3 define the visual family: deep navy and Prussian-blue environments, selective cyan light, aged warm gold, refined painterly/engraved materials and convincing interior depth.\nPrimary scene: Paint a sophisticated mobile-app experimentation workshop as a complete inhabited world. One SMALL full-body robot works at a carefully crafted mobile-testing bench, holding and interacting with a phone. It is physically part of the room, not a pasted logo. Three phone terminals are docked at different angles along the foreground bench, each with a clean realistic icon-only app interface. A large integrated display in the middle distance shows the same application state as the robot's phone: a map with routes, image tiles and a few graphical controls, all without text. A few fine mint-cyan paths connect the devices to small built-in tool controls on the desk, suggesting app-native tools acting on a shared state. The theme must read as mobile agents, controllable app environments and app-native tools.\nComposition and depth: A fully rendered square interior, seen in a three-quarter wide view, with distinct foreground, middle distance and quieter background. Keep the small robot near the center as the clear focal subject, with its entire body and phone visible and its height about one third of the image. The nearest docked phone and engraved bench edge establish foreground scale; the large display and robot occupy the middle; a softly lit arched workshop passage and a distant workstation establish background depth. Keep important silhouettes comfortably within the frame so the image remains readable as a 120px card. Use only a few purposeful devices, not a dense cloud of floating screens.\nStyle and materials: Follow Images 2 and 3's refined oil-painted and finely engraved science-fiction storybook quality. Rich dark blue stone and wood, etched brass fittings, carefully sculpted ivory-blue metal, clear glass, delicate warm lamplight, cyan screens, subtle atmospheric depth. Keep the identity of Image 1 but repaint it naturally in this material style. Make the room richly observed yet composed; use large readable forms and selective fine details.\nColor: Deep blue and teal dominate; warm antique gold edges and soft ivory metal; cyan and mint illumination as accents. Restrained contrast, no neon overload.\nAbsolute exclusions: No text, letters, numbers, words, watermarks or logos anywhere, including screens and buttons. Screen information must use only unlabeled graphical app layouts, simple icons, color blocks, map routes and image tiles. No emoji, app-icon sticker, giant robot head, transparent cutout placed on a background, biological laboratory, trophy, central glowing star, or particle clutter.\nOutput: One complete square 1:1 illustration with an opaque richly painted background.",
+  "transparentBackgroundRequested": false,
+  "verification": {
+    "visuallyInspected": true,
+    "findings": [
+      "Robot and phone identity preserved",
+      "Foreground phones, midground workbench and background workstation establish depth",
+      "Mobile app and tool connections are visible",
+      "Opaque painted environment",
+      "No readable text, letters or numbers observed"
+    ]
+  },
+  "note": "Newly generated thematic cover for this hub; not an official project logo or an original official cover. Source files copied without pixel editing."
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://osatlas.github.io/static/images/os-atlas.ico",
+  "input": "assets/logos/os-atlas.png",
+  "inputNote": "Pixel-preserving PNG conversion of the official ICO.",
+  "output": "assets/logos/os-atlas-transparent.png",
+  "tool": "Built-in image_gen.imagegen",
+  "transparentBackground": true,
+  "prompt": "Use case: background-extraction. Edit the attached OS-ATLAS logo for a website asset. Change only the background: remove the pale gray rectangular background and the small gray interface symbols floating in that background, so the outside is genuinely transparent alpha. Preserve the robot mascot, the blue circular crest, all white interior areas of its face and body, the dark outlines, the robot's exact pose and proportions, and the exact OS-ATLAS wordmark at the bottom. Preserve the original flat illustrated style and original palette. Do not replace, redesign, recolor, distort, or invent any part of the logo. Keep the full logo and wordmark comfortably inside the image bounds. No matte, no white rectangle, no shadow rectangle, no checkerboard drawn into the image. The resulting cutout must work on both dark and light website backgrounds. Text (verbatim): OS-ATLAS.",
+  "generatedFile": "exec-b961b432-35cc-4567-938a-a4a54739888b.png",
+  "scope": "Remove the external pale background and gray UI motifs; retain the robot, circular crest, and wordmark.",
+  "note": "Generative background extraction, visually checked against the source; not a pixel-exact mask.",
+  "verification": {
+    "size": [
+      1362,
+      1155
+    ],
+    "mode": "RGBA",
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pixelsWithAlphaAtLeast240": 858120,
+    "whiteFacePixelRGBA": [
+      253,
+      252,
+      253,
+      254
+    ]
+  }
+}

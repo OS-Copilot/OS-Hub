@@ -1,0 +1,20 @@
+{
+  "title": "agentstore-cover-v2",
+  "assetType": "Generated differentiated research-project scene cover",
+  "officialLogo": false,
+  "tool": "Built-in image_gen.imagegen",
+  "input": "assets/covers/agentstore-cover-v1.png",
+  "output": "assets/covers/agentstore-cover-v2.png",
+  "generatedFile": "exec-17c31624-637a-4e7f-aed8-4e7382eec03a.png",
+  "version": "V2",
+  "previousVersionPreserved": true,
+  "visualDirection": "Slate/graphite, copper, pale clay, and soft jade in a modern collaborative agent workshop.",
+  "differentiationRequirements": [
+    "Replaces ornate blue/gold classical room with modular research workbenches, straight industrial beams, and frosted glass.",
+    "Central coordinator has a wide horizontal visor and stylus.",
+    "Code specialist has a single round optical lens and wrist keyboard; browser specialist has binocular optics and a viewfinder; desktop specialist has a faceted rectangular display head and gripper."
+  ],
+  "prompt": "Use case: style-transfer / scene and robot redesign. Edit the supplied AgentStore v1 cover into a clearly DIFFERENTIATED v2 scene. Retain the concept of one coordinator working with exactly three specialist computer agents, but redesign the robots, palette, architecture, furniture, and lighting. This must look like a modern collaborative agent workshop, not the same old ornate blue-and-gold room.\nPalette: slate blue and graphite structure, brushed copper details, pale terracotta/clay work surfaces, and soft jade/teal accents. Use diffuse modern studio daylight, warm neutral fill, and believable materials: brushed and anodized metal, ceramic-coated casings, dark display glass, rubber joints, and fine surface wear. Refined three-dimensional illustrated rendering, careful light and depth, no plastic emoji styling.\nRobots: four small complete-bodied machines, with credible articulated limbs and different clearly readable head shapes and facial displays. The central coordinator has a low wide rounded-rectangular head and one horizontal dark visor with a thin jade signal line, a brushed-copper shoulder collar, and a compact pointing stylus. The left code specialist has a short cylindrical head with one round amber camera lens and a small wrist-mounted keyboard interface. The right browser specialist has a narrow binocular head with two separate optical lenses and a small search/viewfinder attachment. The rear desktop specialist has a gently faceted wedge-shaped head, a compact rectangular display face, and a tool gripper. Each machine has a small torso and full limbs; no repeated spherical mascot heads, no oversized cute eye faces, no disembodied emoji bodies. Keep all four robots recognizable and separated at thumbnail scale.\nScene: a modern research workshop with straight structural beams, frosted rectangular glass partitions, modular clay and slate workbenches, and a few practical hardware drawers. The coordinator works at a compact central console; the specialists operate separate code, browser, and desktop workstations in foreground/midground/background. Use a few restrained jade/copper interaction paths to show coordination. Screen contents are abstract colored bars, window panels, and thumbnails without characters. Rich but disciplined composition, strong depth, central subjects inside the crop-safe region. No classical library, arched windows, columns, gilded ornament, antique instruments, nighttime castle view, or ornate round table. No dominant navy/gold palette. No text, letters, numbers, logos, badges, or watermark. Opaque square 1:1 composition.",
+  "verification": "Visually inspected: square opaque scene, four distinctly shaped small robots, code/browser/desktop workstations at different depths, credible materials, no emoji heads or readable text.",
+  "note": "New generated thematic artwork for this hub. Not an official project logo or published research figure."
+}

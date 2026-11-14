@@ -1,0 +1,28 @@
+{
+  "title": "OS-Symphony computer-workflow scene cover",
+  "assetType": "New generated thematic scene cover",
+  "officialLogo": false,
+  "tool": "Built-in image_gen.imagegen",
+  "output": "assets/covers/os-symphony-cover-v1.png",
+  "generatedFile": "exec-21f82610-d16c-4143-b33c-2586e847a04d.png",
+  "references": [
+    {
+      "local": "assets/logos/os-symphony.png",
+      "source": "https://os-copilot.github.io/OS-Symphony/static/img/os-symphony.PNG",
+      "role": "Character identity and red/gold costume reference; original badge, lettering, and instruments excluded."
+    },
+    {
+      "local": "assets/covers/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/cover.png",
+      "role": "Palette and painterly/engraved material reference."
+    },
+    {
+      "local": "assets/covers/agentstore-cover-v1.png",
+      "source": "Generated cover documented in assets/covers/agentstore-cover-v1.json",
+      "role": "Workspace depth and visual family reference."
+    }
+  ],
+  "prompt": "Use case: style-transfer and compositing. Create a new square 1:1 OS-Symphony research-project SCENE COVER by placing the recognizable character from image 1 into a complete computer-workflow studio. This is newly generated thematic cover artwork, not an official logo.\nInput roles: image 1 is the character identity reference only. Preserve the petite gray/silver-haired character with short bangs, two braided side tails, red and gold tailored coat, white floral chest ornament, black trousers, and expressive confident conducting pose. Do not copy the circular badge, wreath, ribbon, lettering, musical notes, or musical instruments. Image 2 is a reference for blue/cyan and warm-gold palette, fine painterly/engraved surface detail, and luminous computer-workflow screens. Image 3 is a reference for material richness, physically coherent workspace, and clear foreground/middle/background depth. Do not duplicate its room arrangement or add its robots.\nScene: a deep navy and Prussian-blue computer studio with restrained warm-gold architectural trim. The character is small but clearly recognizable, fully visible near the center, about 40 percent of the image height, actively coordinating a set of software workstations with one slender stylus/baton and an open guiding hand. The devices belong to a real coherent room. In the foreground, an angled desktop display and glass control surface show clean abstract application panels. At middle distance, a memory workspace contains neatly layered visual cards and a task-history strip, and a tool workspace contains a few structured action tiles. Farther back, a search/retrieval display contains a simple magnifying-glass cue and thumbnail panels. Fine cyan light paths connect these workstations to the character's gestures to imply memory, search, tool use, and overall coordination. The workstations should have different positions and depths, not form a flat diagram.\nComposition: clear triangular hierarchy; crisp foreground hardware, clear central character, softer receding architecture and displays. Keep the character and principal screens within the inner 80 percent for clean card cropping. The character's red coat provides a selective warm focal color within the blue/gold environment. Sophisticated textured illustration, delicate etched metal, polished dark wood or blue stone, softly glowing glass, atmospheric depth. The character must be integrated into the painted scene with coherent light and shadows, not a pasted sticker or oversized chibi head.\nConstraints: 1:1 square, opaque full scene. No text, letters, numbers, logos, watermarks, title ribbon, circular emblem, frame border, music symbols, instruments, floating icon clutter, large disembodied head, or emoji style. All screen content is abstract colored bars, windows, and thumbnail shapes without readable characters. Keep it rich, composed, and legible as a small 120-pixel project cover.",
+  "note": "This is a newly generated cover for the hub, not the official OS-Symphony logo or an existing published project figure.",
+  "verification": "Visually inspected: square full scene; small complete gray-haired braided character with red/gold clothing; clear foreground desktop, middle-distance memory and tool screens, rear search screen; no readable text, ribbon, music symbols, or circular badge."
+}

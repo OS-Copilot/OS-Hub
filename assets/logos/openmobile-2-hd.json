@@ -1,0 +1,54 @@
+{
+  "name": "OpenMobile-2 HD hub redraw",
+  "file": "assets/logos/openmobile-2-hd.png",
+  "createdOn": "2026-11-06",
+  "creationMethod": "Built-in image_gen",
+  "generationType": "New high-definition redraw based on the official mascot; not an original official release asset and not a pixel upscale.",
+  "generatedSource": "exec-7e920e69-40d6-40a0-b3b5-1dde6e17592d.png",
+  "references": [
+    {
+      "path": "assets/logos/openmobile-2.png",
+      "role": "Identity and composition reference",
+      "originalSource": "https://os-copilot.github.io/OpenMobile2-Home/public/favicon-512.png"
+    },
+    {
+      "path": "assets/logos/osreward.png",
+      "role": "Material rendering and line-quality reference only",
+      "originalSource": "https://os-copilot.github.io/OSReward-Home/public/favicon-512.png"
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "prompt": "Use case: style-transfer\nAsset type: high-definition transparent project mascot for the OpenMobile-2 research hub, displayed at 64\u2013120 CSS pixels.\nPrimary request: Redraw the low-resolution mascot in Image 1 from scratch at crisp high resolution while preserving its recognizable identity and overall composition. This is a newly rendered illustration, not an enlarged or sharpened pixel image.\nInput images: Image 1 is the target identity and composition reference: a blue-and-white small robot standing on a glowing mobile-platform base while holding an upright smartphone. Image 2 is ONLY the reference for clean material rendering, refined line quality, and polished blue/white robot-family style. Do not borrow its seated pose, radar tablet, checklist, or charts.\nSubject and invariants: Keep the round white robot shell, dark navy face, expressive cyan-ring eyes, small antenna and round ears; keep the standing pose, hand-held phone on the viewer's left, blue/green map-like platform, and a few floating app symbols. Keep the palette cyan blue, mint green, white, navy, with restrained golden accents. The mobile phone should be immediately recognizable, with a clean simple app grid and no text. Preserve the friendly intelligent research-mascot character.\nStyle and quality: Precise, refined illustrated materials with smooth enamel-like white panels, rich blue shading, crisp navy contours, restrained highlights and readable surface details. Render all shapes cleanly; no pixelation, blurry edges, oversharpening halos or gritty texture. It must feel like a carefully drawn member of Image 2's visual family, not an emoji.\nComposition: One compact complete mascot centered on a square canvas with comfortable transparent padding. Robot and phone are the dominant readable silhouette. The platform is a clean compact rounded map-like base with one small golden location marker. Use only two or three larger clear floating app symbols and a few clean connected arcs. Remove the swarm of tiny fragmented pixel particles. Keep all limbs, phone, platform and symbols fully inside the canvas.\nBackdrop: Genuine transparent alpha, including the spaces between detached elements. No rectangular background, white plate, gray checkerboard, solid color field, glow haze covering the canvas, border, watermark, or lettering.\nText: None.\nOutput: A clean high-resolution transparent PNG suitable for dark and light website themes, with crisp details and strong readability at 64\u2013120px.",
+  "visualReview": {
+    "inspected": true,
+    "preserved": [
+      "Blue-and-white standing robot",
+      "Smartphone",
+      "Blue and green map-like platform",
+      "Small floating app symbols",
+      "Cyan, mint and restrained gold palette"
+    ],
+    "improved": [
+      "Crisp contours",
+      "Smooth material shading",
+      "Clean phone and app symbols",
+      "Fewer fragmented particles"
+    ],
+    "textPresent": false,
+    "backgroundRectanglePresent": false
+  },
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "alphaChannel": true,
+    "fullyTransparentPixels": 878286,
+    "fullyOpaquePixels": 1702,
+    "partiallyTransparentPixels": 692528,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

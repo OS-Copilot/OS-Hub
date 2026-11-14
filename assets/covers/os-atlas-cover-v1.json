@@ -1,0 +1,28 @@
+{
+  "asset": "os-atlas-cover-v1.png",
+  "status": "Generated project cover; not an official logo or an original project illustration.",
+  "tool": "image_gen.imagegen",
+  "mode": "Built-in image generation with identity and style references",
+  "prompt": "Use case: stylized-concept.\nTask: transform the mascot in reference image 1 into a fully composed square illustrated cover for GUI grounding and action. Image 1 is the robot identity input; images 2 and 3 are visual style references only. Remove all wording from image 1 and create a scene around the character.\nIdentity: preserve the distinctive retro OS-Atlas robot from image 1: a round warm-ivory face with two large black circular eyes and bright white highlights, curved dark eyebrows, a friendly curved smile, a small swept dark shape on top of its head, substantial round ear/headset pieces, and a white, dark-slate, and brushed-metal articulated body. The chest can have its small four-dot panel and blue circular emblem with an abstract white upward chevron; no letters. Keep the face ivory, not a black screen with cyan eyes. The mascot must be recognizable from the source.\nScene: this single robot is working at a solid real glass-and-brass workstation, precisely locating a target control on a large translucent graphical interface. The robot sits or stands slightly left of center in three-quarter view, with one hand at the physical console and the other calmly pointing toward one highlighted amber rectangular button on a nearby holographic application panel. Use a tiny precise cyan indication at the fingertip and one restrained fine guide line to the target. A couple of secondary GUI panels show large unlabeled window regions and simple component shapes. The image communicates understanding an interface and choosing an exact action target. No dense targeting overlays or weapon-like crosshairs.\nComposition: 1:1 square, fully opaque finished cover. A clearly readable robot head, upper body, and pointing gesture occupy the middle foreground. The primary GUI panel sits to the right, angled naturally in perspective, visibly anchored to a believable workstation. Foreground desk edge, robot and active panel in the middle ground, deep-blue interface research workshop with soft architectural depth behind them. The robot and target button must remain legible at a 120-pixel thumbnail. Maintain complete important silhouettes and comfortable margins; do not crop the robot head or pointing hand.\nStyle: the same fine painterly, delicately engraved material language as references 2 and 3. Textured deep blue surfaces, thin warm-gold metal detailing, luminous cyan glass, softly worn ivory metal, nuanced reflection, sculpted volume, careful soft shadows, and a coherent ambient room. Premium illustrated research cover with atmospheric depth. Not flat vector art, an emoji, a sticker, a plastic logo cutout, or a collage of independent icons.\nPalette: deep navy and midnight blue, restrained cyan interface light, warm champagne-gold engraving and lamp accents, natural ivory robot face. Rich local texture with a calm overall image, no overbright bloom.\nConstraints: no words, no letters, no digits, no tick labels, no code text, no watermarks, no copyright or trademark marks, no logo typography from the source. Only large unlabeled interface shapes. No star trophies, no other robots, no explosions, no dense crosshairs, no disconnected floating ornaments, no white or transparent background. Preserve the original robot's facial identity rather than borrowing the robots from the style references.",
+  "references": [
+    {
+      "path": "assets/logos/os-atlas-transparent.png",
+      "role": "Robot identity and project concept"
+    },
+    {
+      "path": "assets/covers/osreward.png",
+      "role": "Painterly materials and blue-cyan/gold style"
+    },
+    {
+      "path": "assets/covers/agentstore-cover-v1.png",
+      "role": "Finished scene composition and material style"
+    }
+  ],
+  "generatedSource": "exec-17472731-6260-4f59-95a9-ff138fd33cfc.png",
+  "transparentBackground": false,
+  "postprocessing": "None. Original generated PNG copied without modification.",
+  "inspection": {
+    "visualReview": "Ivory-faced retro robot identity is preserved, including headset, eyebrows, smile, swept head detail, and chest symbols. Robot points precisely to a single highlighted GUI button at a substantial physical workstation. Complete head and pointing hand; no typography or dense crosshairs.",
+    "thumbnailReview": "Main subject and gesture were prioritized for small display; inspect the final 120 px placement in the Hub."
+  }
+}

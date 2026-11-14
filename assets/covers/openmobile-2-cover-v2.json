@@ -1,0 +1,45 @@
+{
+  "title": "OpenMobile-2 differentiated scene cover",
+  "version": "V2",
+  "createdOn": "2026-11-06",
+  "assetType": "Generated research-project scene cover",
+  "generatedCover": true,
+  "officialLogo": false,
+  "output": "assets/covers/openmobile-2-cover-v2.png",
+  "priorVersion": "assets/covers/openmobile-2-cover-v1.png",
+  "priorVersionPreserved": true,
+  "tool": "Built-in image_gen.imagegen",
+  "generatedFile": "exec-30ee5266-6e88-439d-b465-052bd902059f.png",
+  "identityReference": "assets/logos/openmobile-2-hd.png",
+  "userRequest": "Differentiate the projects through new environments, materials, colors and robot details. Do not reuse a unified blue-and-gold Gothic setting or merely recolor the previous image.",
+  "specificRequirements": [
+    "Mint green, ice blue and graphite palette",
+    "Bright modern phone testing lab",
+    "Frosted glass and silver-white metal",
+    "Compact round-headed robot holding a smartphone",
+    "Short antenna and visible side-ear display",
+    "Multiple phone workstations",
+    "Small lemon-yellow accents",
+    "No antique gold ornament, Gothic windows or library setting"
+  ],
+  "implementedChanges": [
+    "Rebuilt the setting as a bright contemporary device-testing studio",
+    "Replaced engraved brass and dark wood with frosted glass, brushed aluminum and satin white panels",
+    "Added a visible side-ear signal display and compact mechanical casing details",
+    "Changed the palette and lighting to mint/ice blue daylight with small lemon clips"
+  ],
+  "prompt": "Use case: style-transfer\nAsset type: square research-project scene cover, OpenMobile-2 V2.\nPrimary request: Completely redesign the old scene into a bright MODERN mobile-agent testing studio. This is a new environment and material design, not a recolor of the prior cover.\nInput images: Image 1 is the high-definition robot identity reference. Image 2 is the old V1 cover whose project topic is retained but whose room, architecture, materials, lighting and palette must be replaced completely.\nNew environment: An airy contemporary phone-testing workbench in mint green, ice blue, silver-white and graphite gray. Use frosted glass partitions, brushed aluminum, satin white metal and clean graphite instrument trays. Broad soft daylight and integrated diffuse light panels. Modern rectilinear architecture and a softly receding testing studio establish real spatial depth. The entire scene should feel like a beautifully crafted present-day/near-future device design lab. No antique environment or historic architecture.\nRobot: A compact SMALL full-body robot with a rounded head, pale ice-blue and white casing, dark graphite face, recognizable cyan-ring eyes, a short antenna and a tiny visible display in the side ear module. Keep the friendly OpenMobile-2 identity from Image 1, but give the casing subtler satin material, mint seams and more purposeful small mechanical details. It stands at the center of the testing bench, holds an upright smartphone and actively tests an app. Its head is proportionate to its full body, not a giant emoji head.\nMobile-agent scene: Four or five phone testing stations with different orientations and adjustable silver brackets, distributed from foreground through middle distance. Show clear icon-only application screens: a map route, image tiles, app controls. One restrained glass display mirrors the phone's application state and exposes a few graphical tool controls. Fine mint connections between tool controls and phones suggest app-native tools controlling the same state. A few tiny lemon-yellow clips and device details provide the ONLY warm accent. Do not use golden metal.\nComposition: A complete square room with distinct foreground equipment, midground robot and background testing stations. The central robot and smartphone must remain recognizable at a 120px thumbnail. Robot height about one third of the frame, fully visible. A diagonal workbench edge leads into the scene. Refined detail should support readable large forms rather than clutter.\nRendering: High-quality painterly illustration with physically convincing frosted glass, brushed silver metal, satin ceramic panels, clean edge highlights and subtle surface texture. Keep careful drawing and tangible material depth, not flat vector art, not an emoji or sticker, not a generic glossy plastic toy render. An opaque fully illustrated background fills the square.\nPalette commitment: predominantly LIGHT mint, icy blue and silver-white, grounded by graphite. Small lemon-yellow accent only. This image must be visibly distinct from any dark-blue-and-gold illustration.\nAbsolute exclusions: NO gold/brass ornament, dark navy-and-gold palette, gothic windows, arches, castles, libraries, books, vines, antique furniture, lanterns or medieval details. NO text, letters, words, numbers, labels, brands or watermark anywhere, including screens. Use only unlabeled pictorial app icons and geometric UI layouts. No floating icon swarm, no logo pasted onto a backdrop.\nOutput: One opaque 1:1 square scene cover.",
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": false,
+    "visuallyInspected": true,
+    "findings": [
+      "Complete square scene with readable central robot and smartphone",
+      "Phone racks and tool panel preserve the mobile-agent theme",
+      "No readable letters, numbers or text observed",
+      "No gold ornament or historical architecture observed"
+    ]
+  },
+  "note": "New thematic artwork for this hub, not an official original project cover or logo. Original generated pixels copied unchanged. V1 files remain untouched."
+}

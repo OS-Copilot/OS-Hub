@@ -1,0 +1,23 @@
+{
+  "checkedOn": "2026-11-06",
+  "selected": [
+    {
+      "path": "assets/scene/desktop-screen.webp",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/demo/plat-ubuntu.webp",
+      "sourcePage": "https://os-copilot.github.io/OSReward-Home/",
+      "description": "Public Ubuntu desktop screenshot with a terminal, a map/earth application and a file window.",
+      "width": 560,
+      "height": 312,
+      "processing": "Downloaded original WebP without cropping, resampling, compositing or other pixel edits.",
+      "visualReview": "Real software desktop, not a logo or paper diagram. The visible terminal uses a generic user@user-virtual-machine prompt; no personal messages, accounts or credentials are visible."
+    }
+  ],
+  "fallbackReason": "ScienceBoard homepage and public repository did not expose a suitable standalone software screenshot. The inspected JPG files were paper diagrams with embedded screenshots; GIF first frames were blank. A public OSReward demo image from the same OS-Copilot series was selected instead.",
+  "inspectedSources": [
+    "https://qiushisun.github.io/ScienceBoard-Home/",
+    "https://api.github.com/repos/QiushiSun/ScienceBoard-Home/git/trees/gh-pages?recursive=1",
+    "https://api.github.com/repos/OS-Copilot/ScienceBoard/git/trees/main?recursive=1",
+    "https://raw.githubusercontent.com/OS-Copilot/ScienceBoard/main/static/scienceboard_overview.jpg",
+    "https://raw.githubusercontent.com/OS-Copilot/ScienceBoard/main/static/scienceboard_workflow.jpg"
+  ]
+}

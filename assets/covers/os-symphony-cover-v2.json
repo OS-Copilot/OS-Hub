@@ -1,0 +1,20 @@
+{
+  "title": "os-symphony-cover-v2",
+  "assetType": "Generated differentiated research-project scene cover",
+  "officialLogo": false,
+  "tool": "Built-in image_gen.imagegen",
+  "input": "assets/covers/os-symphony-cover-v1.png",
+  "output": "assets/covers/os-symphony-cover-v2.png",
+  "generatedFile": "exec-2869d5f8-cf3e-4a1f-b4f7-6928f5545b24.png",
+  "version": "V2",
+  "previousVersionPreserved": true,
+  "visualDirection": "Burgundy, champagne, warm ivory, and dark green screens in a warm modern wood-lined coordination studio.",
+  "differentiationRequirements": [
+    "Replaces blue/gold gothic library with straight modern wood and acoustic panel architecture.",
+    "Keeps the gray-haired braided character and red/gold outfit.",
+    "Uses memory, search, and tools workspaces without music symbols."
+  ],
+  "prompt": "Use case: style-transfer / scene redesign. Edit the supplied OS-Symphony v1 cover into a deliberately DIFFERENTIATED v2. Keep the recognizable small full-body central character: silver-gray hair with two braided tails, red-and-gold coat, white floral chest ornament, black trousers, confident conducting gesture. Preserve that character identity but completely replace the surrounding architecture, palette, furniture, and lighting.\nNew visual direction: warm modern wood-lined coordination studio, dominant burgundy/wine red, champagne metal, and warm ivory. Flat cedar or walnut wall panels, burgundy fabric acoustic panels, simple rectangular openings, matte ivory desk surfaces, soft warm daylight and restrained amber task lighting. Screen glass is deep ink green with muted sage highlights; no electric blue or cyan glow. Modern crafted materials, believable wood grain, brushed champagne metal and glass, fine painted illustration with material depth. A sophisticated small-scale research studio, not an ornate hall.\nThe complete small character stands at a central ivory-and-wood coordination console and directs three software workspaces: memory is shown as layered visual task cards, search as thumbnail panels and a subtle magnifier, tools as a few tidy action modules. Screens and devices occupy distinct foreground, middle distance, and rear positions in a physically coherent room. Maintain clean hierarchy and enough detail to feel inhabited, while keeping the character clear at 120-pixel thumbnail size. Fine warm cream/sage connection paths may connect the gestures to the workspaces, but remain restrained. Keep the character comfortably within the image boundaries.\nStrong exclusions: remove ALL blue-and-gold gothic library styling from the input. No arched windows, columns, ornate bookshelves, decorative globes, celestial night sky, carved gold scrollwork, glowing circular floor emblem, ribbon, badge, musical instruments, or music symbols. No text, letters, numbers, title, watermark, or oversized character head. Use a full opaque square 1:1 scene. Burgundy, champagne, ivory and small amounts of forest green must be visibly dominant; this cover must not resemble a blue computer-agent cover with a palette tint.",
+  "verification": "Visually inspected: square opaque scene, complete small character, warm wood/ivory/burgundy palette, green screens, clear foreground and rear workspaces, no gothic windows or readable text.",
+  "note": "New generated thematic artwork for this hub. Not an official project logo or published research figure."
+}

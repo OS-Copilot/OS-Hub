@@ -1,0 +1,28 @@
+{
+  "asset": "os-omni-cover-v1.png",
+  "status": "Generated project cover; not an official logo or an original project illustration.",
+  "tool": "image_gen.imagegen",
+  "mode": "Built-in image generation with identity and style references",
+  "prompt": "Use case: stylized-concept.\nTask: transform the robot and cross-platform concept of reference image 1 into a completely composed square research-project cover scene. Preserve the mascot identity; expand the setting far beyond the logo. Reference image 1 is the identity input. Images 2 and 3 are visual style references only.\nIdentity: the small friendly blue-and-white robot from image 1, with rounded white helmet, circular cyan-blue ear pieces, a little antenna, glossy dark-blue face panel, two large cyan eyes, compact white body, cyan square chest panel, and articulated white limbs. Keep this specific character recognizable; do not replace it with the gold robots from the style references.\nScene: a cross-platform computing workshop with one central robot standing on a small elevated blue glass digital platform beside a miniature finely detailed globe. Around it, arrange a few believable desktop monitors, a laptop with a browser-like graphical interface, and two upright phones, all integrated into one physical working environment. Large simple unlabeled interface shapes distinguish documents, an application window, a browser, and a terminal. A restrained continuous cyan route visits several devices, expressing a long workflow across different platforms. The robot calmly supervises this cross-platform environment.\nComposition: 1:1 square, complete cover scene with an opaque background. Clear foreground, middle ground, and background depth. The central robot is prominent enough to remain recognizable at a 120-pixel thumbnail; its whole body occupies about one third of the image height. Use fewer larger devices with recognizable silhouettes. Foreground is a low glass-and-brass console; middle ground contains the robot, small globe, and primary devices; background is a spacious deep-blue research workshop with subtle architectural arches. Keep all important subjects fully within the frame, with comfortable edge margins. Avoid a flat radial logo composition.\nStyle: match the fine painterly and engraved richness of images 2 and 3: layered oil-paint-like brushwork, luminous blue-cyan glass, textured deep-navy surfaces, delicate warm-gold metal engraving, carefully modeled volume, credible shadows, atmospheric depth, elegant restrained lighting. The image should feel like a finished illustrated research cover, not a clean plastic toy render, emoji, sticker, or pasted icon collage.\nColor: predominantly deep navy and ocean blue, cyan light on the interfaces, warm champagne gold for fine structural details. Rich but controlled contrast. No overexposure, avoid an overbright central light source.\nConstraints: no words, no lettering, no numbers, no labels, no company logos, no platform wordmarks, no chart tick labels, no tiny code text, no watermarks. Interfaces use only generous abstract shapes and unlabeled components. No floating reward star. No white or transparent background. Do not reproduce the original logo border or arrange devices as logo stickers. Preserve the blue-white robot identity while creating a new cross-platform benchmark and execution-environment scene.",
+  "references": [
+    {
+      "path": "assets/logos/os-omni.png",
+      "role": "Robot identity and project concept"
+    },
+    {
+      "path": "assets/covers/osreward.png",
+      "role": "Painterly materials and blue-cyan/gold style"
+    },
+    {
+      "path": "assets/covers/agentstore-cover-v1.png",
+      "role": "Finished scene composition and material style"
+    }
+  ],
+  "generatedSource": "exec-016a2795-4f6c-408f-a735-74bedebbd758.png",
+  "transparentBackground": false,
+  "postprocessing": "None. Original generated PNG copied without modification.",
+  "inspection": {
+    "visualReview": "Blue-white mascot identity is preserved. Full cross-platform workshop scene with desktop displays, two phones, a browser laptop, a small globe, and a continuous cyan workflow route. Important subjects remain inside the frame; no words or digits.",
+    "thumbnailReview": "Main subject and gesture were prioritized for small display; inspect the final 120 px placement in the Hub."
+  }
+}

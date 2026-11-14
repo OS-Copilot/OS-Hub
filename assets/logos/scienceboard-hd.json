@@ -1,0 +1,43 @@
+{
+  "title": "New generated ScienceBoard thematic mascot",
+  "tool": "Built-in image_gen.imagegen",
+  "officialLogo": false,
+  "transparentBackground": true,
+  "output": "assets/logos/scienceboard-hd.png",
+  "generatedFile": "exec-ca23bd06-9dfd-4fdc-b793-92fa7cfe9a41.png",
+  "references": [
+    {
+      "local": "assets/covers/scienceboard.jpeg",
+      "source": "https://qiushisun.github.io/ScienceBoard-Home/static/img/scienceboard-cover.jpeg",
+      "role": "Subject and palette reference, visually inspected"
+    },
+    {
+      "local": "assets/logos/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/favicon-512.png",
+      "role": "Rendering and mascot-family reference, visually inspected"
+    }
+  ],
+  "prompt": "Use case: logo-brand. Create a new high-resolution transparent project mascot illustration for ScienceBoard, a computer-agent research project about scientific workflows. This is a hub-specific generated project symbol, not a claim to be the original official logo. One compact full-body robot scientist, three-quarter front view, holding a transparent cyan laboratory flask in one hand. The robot has a refined ivory-white ceramic and metal body, cool blue trim, a dark navy glass face with two clear luminous cyan eyes, short articulated limbs, and subtle warm-gold accents recalling a scientific computer-workflow cover. Put one small, clearly recognizable blue-and-gold Earth globe beside the robot; allow only a tiny simple three-node molecular motif if it fits without clutter. Keep the flask and globe visually distinct from the body. Favor broad readable silhouettes and a clean hierarchy that remains recognizable at 64 pixels. Polished illustrated rendering with controlled highlights, delicate material depth, crisp outlines and smooth antialiasing, matching a family of refined white-and-blue computer-agent mascots. Tight compact balanced composition, full robot inside the frame, no excessive empty padding. Genuine transparent alpha outside the illustration. No background rectangle or circle, no tiny circular seal/badge, no dark matte, no environment, no floor, no text, no letters, no numbers, no watermark, no huge emoji head, no floating icon cloud. Keep every white interior area of the robot fully opaque; transparency is only outside and in true gaps.",
+  "note": "New hub-specific artwork, not the original official ScienceBoard logo. Robot scientist with a flask, globe, and small molecular motif; no text.",
+  "verification": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "fullyTransparentPixels": 744999,
+    "pixelsWithAlphaAtLeast240": 770921,
+    "bytes": 1708442,
+    "visualReview": "Generated result inspected: clear subject, no text, no background rectangle."
+  }
+}

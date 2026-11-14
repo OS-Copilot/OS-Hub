@@ -1,0 +1,27 @@
+{
+  "asset": "digital-globe.png",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in generation",
+  "generatedSource": "exec-30de70af-3fa0-411c-9ae7-66721a10580b.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: an isolated transparent PNG hero asset for the OS-Copilot research hub, intended to sit behind three HTML/CSS computer devices.\nPrimary request: a premium physically believable three-dimensional deep blue digital planet, seen straight on with three-quarter illumination, fully round and fully visible.\nSubject and materials: one Earth-like globe with convincing spherical volume, finely detailed dark cobalt oceans, subtly raised rugged blue landmasses, delicate wisps and swirls of real volumetric white-blue clouds, and a very thin cyan-blue atmospheric rim. Add only a few extremely fine restrained champagne-gold longitude and latitude arcs that cling closely to the sphere's curvature, without covering or simplifying the terrain. No specified continent is required. The surface must have rich microtexture, nuanced roughness, and realistic light scattering; it must not look like a flat vector sphere, a smooth plastic marble, a wireframe diagram, or a hollow glass ball.\nLighting: soft large studio key light from the upper left, with clear but gentle transitions from a detailed illuminated upper-left hemisphere into a dark lower-right hemisphere. Keep the dark-side globe silhouette complete and readable. Controlled reflections, no blown highlights. An understated product-render finish, cinematic quality but clean and credible.\nColor palette: deep ink navy #080f1c, dark cobalt and desaturated azure, ocean cyan #6fcfe0, very sparse muted gold #ddc395. This palette is inspired by the OSReward cover art; use only that palette, not its robots, architecture, illustration style, or surrounding scene.\nComposition: square high-resolution canvas, a centered spherical globe occupying roughly 82 percent of the canvas width and height, with a clean margin on every side. Orthographic or long-lens product-render perspective. Fine detail must remain beautiful at a displayed size around 220 pixels.\nBackground: actual transparent alpha outside the globe and its extremely thin atmospheric rim. No floor or cast shadow. The entire background is empty transparent space.\nConstraints: only the globe. No devices, no screens, no robots, no text, no letters, no logos, no stars, no space backdrop, no light beams, no satellites, no floating ornaments, no disconnected orbital rings, no pedestal, no frame, no watermark. Premium refined 3D product rendering, not painted cover art.",
+  "reference": {
+    "role": "Palette inspiration only; no reference image was passed to generation.",
+    "localPath": "assets/covers/osreward.png",
+    "originalUrl": "https://os-copilot.github.io/OSReward-Home/public/cover.png"
+  },
+  "transparentBackground": true,
+  "postprocessing": "None. Original generated PNG copied without modification.",
+  "intendedUse": "Optional central globe behind the CSS-rendered devices in the OS-Copilot Hub.",
+  "inspection": {
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "alphaExtrema": [0, 254],
+    "fullyTransparentPixels": 522195,
+    "partialAlphaPixels": 1050321,
+    "notes": "Complete globe, upper-left illumination, detailed terrain and clouds, thin cyan atmosphere and muted gold arcs. No devices, labels, star background, or external ornaments."
+  }
+}

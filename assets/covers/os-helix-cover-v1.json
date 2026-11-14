@@ -1,0 +1,36 @@
+{
+  "title": "OS-Helix thematic cover",
+  "assetType": "Generated research-project scene cover",
+  "officialLogo": false,
+  "generatedCover": true,
+  "createdOn": "2026-11-06",
+  "tool": "Built-in image_gen.imagegen",
+  "output": "assets/covers/os-helix-cover-v1.png",
+  "generatedFile": "exec-58ca11bf-79f2-4b10-98b1-a55f71a95665.png",
+  "subject": "A small robot coordinates GUI and code workstations whose cyan and gold streams intertwine over a shared task preview.",
+  "identityReference": "assets/logos/os-helix.png",
+  "styleReferences": [
+    {
+      "local": "assets/covers/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/cover.png"
+    },
+    {
+      "local": "assets/covers/agentstore-cover-v1.png",
+      "source": "Generated AgentStore thematic cover for this hub"
+    }
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: original square 1:1 research-project scene cover for OS-Helix, a computer-using agent that learns GUI interaction and code execution in one policy. New thematic cover art for a research hub, not an official logo.\nInput references: Image 1 provides the OS-Helix robot identity: pale ivory and blue articulated body, dark navy face, friendly curved cyan eyes, rounded glowing ears, small cyan chest light, and subtle blue/green accents. Preserve that identity while repainting it as a small physical participant in the room. Images 2 and 3 define the family art style: deep navy and Prussian-blue interiors, selective cyan light, warm antique gold, refined painterly and engraved surfaces, clear spatial depth.\nScene: A quiet, finely crafted computer workshop where a SMALL full-body robot coordinates one real task between two complementary workstations. On the left, a GUI workstation shows a clear desktop composition with an image preview and a simple chart built from unlabeled shapes. On the right, a code workstation shows structured stacked blue/cyan/gold bars with indentation, indicating code without any written characters. Both screens show the same small chart-and-image result in their preview area, visually expressing one shared workflow. The robot stands between the workstations, reaching toward the GUI with one hand and operating the nearby code-side control surface with the other. The room and tools must feel inhabited and functional.\nDistinctive connection: One restrained cyan stream and one warm-gold stream leave the two workstations, weave together only twice in a small elegant helix over the central desk, and converge at the shared task object. The helix is a subtle flow of computation, integrated into the workspace, not a freestanding emblem. No biological DNA, molecular rungs, genetics laboratory, test tubes, or laboratory apparatus.\nComposition: Full square interior with generous perspective and foreground/middle/background layering. The robot is the clear center of attention but only about one third of the picture height; show its full body. Two purposeful workstations frame it, with a low engraved central desk in front, warm brass fixtures, and a softly receding arched room or window behind. Keep large silhouettes and the two workstreams readable at a 120px thumbnail. Keep key elements inside comfortable margins. Limit the scene to the two main screens and one small shared preview; do not fill the room with floating dashboards or abstract screen clutter.\nStyle: Rich but restrained painterly and finely engraved science-fiction storybook illustration. Carefully sculpted ivory-blue metal, dark glass, blue stone and wood, delicate brass trim, fine surface patina, soft directional lamplight and subtle atmospheric depth. Follow the spatial and material richness of Images 2 and 3. Do not paste the flat logo onto a backdrop. Do not create an emoji, sticker, toy-product render, or a giant floating robot head.\nPalette: Midnight navy and teal dominate. Cyan and warm antique gold illuminate the paired workflows. Retain small mint accents from the robot reference; avoid saturated rainbow color.\nAbsolute exclusions: No words, text, letters, numbers, labels, brands, watermark, code glyphs, punctuation or typographic symbols anywhere. The code terminal is indicated exclusively by indented colored graphical bars; no braces or command prompt characters. GUI screens use icon-only controls and unlabeled image/chart layouts. No trophy, central star, particle storm, biological DNA aesthetic or densely stacked screens.\nOutput: One complete square 1:1 illustration with an opaque painted background, clearly in the same cover family as the style references.",
+  "transparentBackgroundRequested": false,
+  "verification": {
+    "visuallyInspected": true,
+    "findings": [
+      "OS-Helix robot identity preserved",
+      "Two workstations show complementary GUI and indented graphical code views",
+      "Cyan and gold streams intertwine and converge on a shared result",
+      "Foreground task table, midground robot and background architecture establish depth",
+      "No biological DNA imagery",
+      "No readable text, letters or numbers observed"
+    ]
+  },
+  "note": "Newly generated thematic cover for this hub; not an official project logo or an original official cover. Source files copied without pixel editing."
+}

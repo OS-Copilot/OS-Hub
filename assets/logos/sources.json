@@ -1,0 +1,379 @@
+{
+  "checkedOn": "2026-11-06",
+  "policy": "Only official or user-provided images. Original pixels preserved, except format-only ICO-to-PNG conversion. No background removal or image generation in this asset task.",
+  "projectLogos": {
+    "os-genesis": {
+      "path": "assets/logos/os-genesis-nav.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/logos/projects/os-genesis.png",
+      "kind": "official project navigation logo",
+      "transparent": true,
+      "inspection": {
+        "width": 88,
+        "height": 88,
+        "alpha0": 3197,
+        "alpha255": 1365,
+        "pixels": 7744,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "displayPath": "assets/logos/os-genesis-hd.png",
+      "editRecord": "assets/logos/os-genesis-hd.json"
+    },
+    "scienceboard": {
+      "path": "assets/logos/scienceboard-nav.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/logos/projects/scienceboard.png",
+      "kind": "official project badge",
+      "transparent": true,
+      "inspection": {
+        "width": 88,
+        "height": 88,
+        "alpha0": 5227,
+        "alpha255": 43,
+        "pixels": 7744,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "displayPath": "assets/logos/scienceboard-hd.png",
+      "editRecord": "assets/logos/scienceboard-hd.json"
+    },
+    "os-sentinel": {
+      "path": "assets/logos/os-sentinel-highres.png",
+      "source": "os-sentinel-logo.png (local project source)",
+      "publishedReference": "https://qiushisun.github.io/OS-Sentinel-Home/public/favicon.ico",
+      "kind": "local project logo; visually matches the published favicon",
+      "transparent": true,
+      "inspection": {
+        "width": 720,
+        "height": 720,
+        "alpha0": 309898,
+        "alpha255": 130577,
+        "pixels": 518400,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "openmobile-2": {
+      "path": "assets/logos/openmobile-2.png",
+      "source": "https://os-copilot.github.io/OpenMobile2-Home/public/favicon-512.png",
+      "kind": "official project mascot",
+      "transparent": true,
+      "inspection": {
+        "width": 512,
+        "height": 512,
+        "alpha0": 132214,
+        "alpha255": 0,
+        "pixels": 262144,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "displayPath": "assets/logos/openmobile-2-hd.png",
+      "editRecord": "assets/logos/openmobile-2-hd.json"
+    },
+    "osreward": {
+      "path": "assets/logos/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/favicon-512.png",
+      "kind": "official project mascot",
+      "transparent": true,
+      "inspection": {
+        "width": 512,
+        "height": 512,
+        "alpha0": 130934,
+        "alpha255": 10873,
+        "pixels": 262144,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "os-shepherd": {
+      "path": "assets/logos/os-shepherd.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/logos/OS-Shepherd.png",
+      "kind": "official model-family mark; same artwork as the project mascot",
+      "transparent": true,
+      "inspection": {
+        "width": 120,
+        "height": 120,
+        "alpha0": 6371,
+        "alpha255": 635,
+        "pixels": 14400,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "os-symphony": {
+      "path": "assets/logos/os-symphony.png",
+      "source": "https://os-copilot.github.io/OS-Symphony/static/img/os-symphony.PNG",
+      "kind": "official project illustration and favicon",
+      "transparent": true,
+      "inspection": {
+        "width": 895,
+        "height": 961,
+        "alpha0": 306719,
+        "alpha255": 512880,
+        "pixels": 860095,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "os-atlas": {
+      "path": "assets/logos/os-atlas.png",
+      "source": "https://osatlas.github.io/static/images/os-atlas.ico",
+      "kind": "official favicon converted to PNG with sips",
+      "transparent": false,
+      "note": "The original ICO has 55,552 fully opaque pixels. No background removal was performed by this asset-research task. The parent will handle background removal separately.",
+      "inspection": {
+        "width": 256,
+        "height": 217,
+        "alpha0": 0,
+        "alpha255": 55552,
+        "pixels": 55552,
+        "cornerAlpha": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "displayPath": "assets/logos/os-atlas-transparent.png",
+      "editRecord": "assets/logos/os-atlas-edit.json"
+    },
+    "agentstore": {
+      "path": "assets/logos/agentstore.png",
+      "source": "https://chengyou-jia.github.io/AgentStore-Home/static/favicon_io/android-chrome-512x512.png",
+      "kind": "official project favicon",
+      "transparent": true,
+      "inspection": {
+        "width": 512,
+        "height": 512,
+        "alpha0": 55711,
+        "alpha255": 202230,
+        "pixels": 262144,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "os-omni": {
+      "path": "assets/logos/os-omni.png",
+      "source": "os-omni-v6.png (user-provided source)",
+      "homepage": "https://os-copilot.github.io/OS-Omni-Home",
+      "kind": "user-provided logo",
+      "transparent": true,
+      "note": "Copied unchanged; homepage is user-approved even if not yet published.",
+      "inspection": {
+        "width": 300,
+        "height": 300,
+        "alpha0": 57313,
+        "alpha255": 9711,
+        "pixels": 90000,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "os-helix": {
+      "path": "assets/logos/os-helix.png",
+      "source": "https://os-copilot.github.io/OS-Helix/assets/hero-robot.png",
+      "transparent": true
+    }
+  },
+  "resourceLogos": [
+    {
+      "name": "OSReward benchmark",
+      "logo": "osreward",
+      "usage": "Project logo"
+    },
+    {
+      "name": "OS-Shepherd models",
+      "logo": "os-shepherd",
+      "usage": "Official model-family logo"
+    },
+    {
+      "name": "OS-Shepherd-100K",
+      "logo": "os-shepherd",
+      "usage": "Shared family logo; no separate corpus logo was found"
+    },
+    {
+      "name": "ScienceBoard benchmark",
+      "logo": "scienceboard",
+      "usage": "Project badge"
+    },
+    {
+      "name": "ScienceBoard-Env",
+      "logo": "scienceboard",
+      "usage": "Shared project badge; the official environment model card also uses the ScienceBoard badge"
+    },
+    {
+      "name": "ScienceBoard-Traj",
+      "logo": "scienceboard",
+      "usage": "Shared project badge; no independent trajectory-data logo was found"
+    },
+    {
+      "name": "MobileRisk",
+      "logo": "os-sentinel",
+      "usage": "Shared project logo; no independent benchmark logo was found"
+    },
+    {
+      "name": "MobileRisk-Live",
+      "logo": "os-sentinel",
+      "usage": "Shared project logo; no independent infrastructure logo was found"
+    },
+    {
+      "name": "Hybrid safety evaluator",
+      "logo": "os-sentinel",
+      "usage": "Project component; use the shared project logo"
+    },
+    {
+      "name": "MobileGym++",
+      "logo": "openmobile-2",
+      "usage": "Shared project mascot; no independent simulator logo was found"
+    },
+    {
+      "name": "OpenMobile-Data",
+      "logo": "openmobile-2",
+      "usage": "Shared project mascot; no independent dataset logo was found"
+    },
+    {
+      "name": "OpenMobile-2 models",
+      "logo": "openmobile-2",
+      "usage": "Project mascot"
+    },
+    {
+      "name": "OS-Genesis mobile trajectories",
+      "logo": "os-genesis",
+      "usage": "Shared project logo"
+    },
+    {
+      "name": "OS-Genesis web trajectories",
+      "logo": "os-genesis",
+      "usage": "Shared project logo"
+    },
+    {
+      "name": "OS-Genesis checkpoints",
+      "logo": "os-genesis",
+      "usage": "Shared project logo"
+    },
+    {
+      "name": "OS-Symphony framework and components",
+      "logo": "os-symphony",
+      "usage": "Shared project illustration"
+    },
+    {
+      "name": "OS-Atlas models, data and ScreenSpot-v2",
+      "logo": "os-atlas",
+      "usage": "Shared project logo; independent resource logos were not verified"
+    },
+    {
+      "name": "AgentToken-8B",
+      "logo": "agentstore",
+      "usage": "Shared AgentStore icon; no independent model logo was verified"
+    }
+  ],
+  "sourceChecks": [
+    {
+      "resource": "ScienceBoard-Env",
+      "source": "https://huggingface.co/OS-Copilot/ScienceBoard-Env/raw/main/README.md",
+      "finding": "Uses the ScienceBoard project badge from the official code repository."
+    },
+    {
+      "resource": "ScienceBoard-Traj",
+      "source": "https://huggingface.co/api/datasets/OS-Copilot/ScienceBoard-Traj/tree/main",
+      "finding": "Root contains trajectory archives and .gitattributes, with no README or image asset."
+    },
+    {
+      "resource": "MobileRisk",
+      "source": "https://huggingface.co/api/datasets/OS-Copilot/MobileRisk/tree/main",
+      "finding": "Root contains safe/unsafe trajectory archives and .gitattributes, with no README or image asset."
+    },
+    {
+      "resource": "MobileGym++",
+      "source": "https://raw.githubusercontent.com/OpenMobile2/MobileGym-plusplus/main/README.md",
+      "finding": "README contains research figures and status badges, but no separate product logo."
+    },
+    {
+      "resource": "OpenMobile-2",
+      "source": "https://raw.githubusercontent.com/OpenMobile2/OpenMobile2-Code/main/README.md",
+      "finding": "The linked assets/openmobile2.png is a results chart, not a logo or cover; it was not selected."
+    },
+    {
+      "resource": "OS-Shepherd-9B",
+      "source": "https://huggingface.co/OS-Copilot/OS-Shepherd-9B/raw/main/README.md",
+      "finding": "No separate image in the model README; the project homepage supplies the model-family mark."
+    },
+    {
+      "resource": "OS-Shepherd-100K",
+      "source": "https://huggingface.co/datasets/OS-Copilot/OS-Shepherd-100K/raw/main/README.md",
+      "finding": "No independent corpus logo in the README."
+    }
+  ],
+  "rejectedSources": [
+    {
+      "path": "assets/covers/os-atlas-logo.png",
+      "reason": "Low-resolution older character mark with nontransparent white background; do not use for the new design."
+    },
+    {
+      "source": "https://raw.githubusercontent.com/OS-Copilot/ScienceBoard/main/static/scienceboard_badge_v0.png",
+      "reason": "Wide white-background wordmark with small text; the compact transparent badge is preferred for resource cards."
+    }
+  ],
+  "osOmniContentSource": "Local OS-Omni technical report, sections/0_abstract.tex; resource links use the user-provided homepage until release.",
+  "generatedCovers": {
+    "openmobile-2": {
+      "path": "assets/covers/openmobile-2-cover-v2.png",
+      "record": "assets/covers/openmobile-2-cover-v2.json"
+    },
+    "os-omni": {
+      "path": "assets/covers/os-omni-cover-v2.png",
+      "record": "assets/covers/os-omni-cover-v2.json"
+    },
+    "os-atlas": {
+      "path": "assets/covers/os-atlas-cover-v2.png",
+      "record": "assets/covers/os-atlas-cover-v2.json"
+    },
+    "os-helix": {
+      "path": "assets/covers/os-helix-cover-v2.png",
+      "record": "assets/covers/os-helix-cover-v2.json"
+    },
+    "os-symphony": {
+      "path": "assets/covers/os-symphony-cover-v2.png",
+      "record": "assets/covers/os-symphony-cover-v2.json"
+    },
+    "agentstore": {
+      "path": "assets/covers/agentstore-cover-v2.png",
+      "record": "assets/covers/agentstore-cover-v2.json"
+    }
+  }
+}

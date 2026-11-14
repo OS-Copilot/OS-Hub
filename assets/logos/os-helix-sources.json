@@ -1,0 +1,82 @@
+{
+  "checkedOn": "2026-11-06",
+  "id": "os-helix",
+  "name": "OS-Helix",
+  "homepage": "https://os-copilot.github.io/OS-Helix/",
+  "github": "https://github.com/OS-Copilot/OS-Helix",
+  "githubStatus": "Repository available; training and evaluation code marked Coming Soon in its README.",
+  "summary": "Learns to combine GUI actions and code execution in one desktop-agent policy.",
+  "role": "GUI and code agents",
+  "question": "How can agents learn to use GUI and code together?",
+  "logo": "assets/logos/os-helix.png",
+  "artifacts": [
+    {
+      "name": "OS-Helix models",
+      "type": "Models",
+      "url": "https://huggingface.co/collections/YYangzzzz/os-helix",
+      "description": "Desktop agents trained to coordinate GUI actions and code execution.",
+      "status": "Available",
+      "verifiedHttpStatus": 200
+    },
+    {
+      "name": "OS-Helix-Dataset",
+      "type": "Data",
+      "url": "https://huggingface.co/datasets/YYangzzzz/OS-Helix-Dataset",
+      "description": "Hybrid GUI/code training examples with screenshots.",
+      "status": "Available",
+      "verifiedHttpStatus": 200
+    }
+  ],
+  "components": [
+    {
+      "name": "Executable desktop environments",
+      "description": "Versioned applications and artifacts form reproducible task environments."
+    },
+    {
+      "name": "Verifiable task synthesis",
+      "description": "Exploration proposes instructions; an independent evaluator checks the final state."
+    },
+    {
+      "name": "Hybrid training",
+      "description": "Filtered GUI/code demonstrations initialize the policy before step-balanced online reinforcement learning."
+    }
+  ],
+  "images": [
+    {
+      "path": "assets/logos/os-helix.png",
+      "source": "https://os-copilot.github.io/OS-Helix/assets/hero-robot.png",
+      "kind": "Official transparent hero illustration",
+      "width": 1374,
+      "height": 1145,
+      "hasAlpha": true,
+      "visuallyInspected": true,
+      "processing": "Original file downloaded unchanged."
+    },
+    {
+      "path": "assets/logos/os-helix.svg",
+      "source": "https://os-copilot.github.io/OS-Helix/assets/icons/title-helix.svg",
+      "kind": "Official helix title icon",
+      "width": 24,
+      "height": 24,
+      "note": "Pale green and blue strokes are designed for a dark background; prefer the robot PNG for the project node.",
+      "processing": "Original file downloaded unchanged."
+    }
+  ],
+  "modelLinksObservedInCollection": [
+    "https://huggingface.co/YYangzzzz/OS-Helix-27B",
+    "https://huggingface.co/YYangzzzz/OS-Helix-27B-RL",
+    "https://huggingface.co/YYangzzzz/OS-Helix-35B-A3B"
+  ],
+  "notes": [
+    "Only the two available resource families are listed as artifacts. The official code repository currently states that training and evaluation code is coming soon.",
+    "The dataset is available; its hosted Hugging Face viewer currently reports a DatasetGenerationError, which does not establish that the downloadable files are unavailable.",
+    "No separate logos for models, data or framework components were found. Reuse the project illustration without presenting it as a distinct resource logo.",
+    "The project describes a learned unified GUI/code policy. No direct implementation dependency on OS-Symphony or another Hub project is claimed."
+  ],
+  "sources": [
+    "https://os-copilot.github.io/OS-Helix/",
+    "https://github.com/OS-Copilot/OS-Helix",
+    "https://huggingface.co/collections/YYangzzzz/os-helix",
+    "https://huggingface.co/datasets/YYangzzzz/OS-Helix-Dataset"
+  ]
+}

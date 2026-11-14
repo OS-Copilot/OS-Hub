@@ -1,0 +1,503 @@
+{
+  "checkedOn": "2026-11-06",
+  "projects": [
+    {
+      "id": "os-genesis",
+      "name": "OS-Genesis",
+      "homepage": "https://qiushisun.github.io/OS-Genesis-Home/",
+      "github": "https://github.com/OS-Copilot/OS-Genesis",
+      "summary": "Synthesizes GUI tasks and trajectories from interaction, without manual task annotation.",
+      "role": "Trajectory synthesis",
+      "cover": "os-genesis.jpeg",
+      "coverKind": "key art",
+      "artifacts": [
+        {
+          "name": "Mobile trajectories",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OS-Copilot/OS-Genesis-mobile-data",
+          "description": "Synthesized mobile interaction data.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/OS-Genesis-mobile-data"
+          }
+        },
+        {
+          "name": "Web trajectories",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OS-Copilot/OS-Genesis-web-data",
+          "description": "Synthesized web interaction data.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/OS-Genesis-web-data"
+          }
+        },
+        {
+          "name": "OS-Genesis checkpoints",
+          "type": "Models",
+          "url": "https://huggingface.co/collections/OS-Copilot/os-genesis",
+          "description": "GUI agents trained on synthesized trajectories.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/collections/OS-Copilot/os-genesis"
+          }
+        }
+      ],
+      "components": [
+        {
+          "name": "Functional discovery",
+          "description": "Explore interfaces before specifying tasks."
+        },
+        {
+          "name": "Reverse task synthesis",
+          "description": "Turn observed interactions into task instructions."
+        },
+        {
+          "name": "Trajectory reward model",
+          "description": "Score task completion and action coherence."
+        }
+      ]
+    },
+    {
+      "id": "scienceboard",
+      "name": "ScienceBoard",
+      "homepage": "https://qiushisun.github.io/ScienceBoard-Home/",
+      "github": "https://github.com/OS-Copilot/ScienceBoard",
+      "summary": "Evaluates computer-using agents in scientific workflows with professional software.",
+      "role": "Scientific environments and evaluation",
+      "cover": "scienceboard.jpeg",
+      "coverKind": "key art",
+      "artifacts": [
+        {
+          "name": "ScienceBoard tasks",
+          "type": "Benchmark",
+          "url": "https://github.com/OS-Copilot/ScienceBoard/tree/main/tasks",
+          "description": "Task definitions for scientific workflows.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/ScienceBoard/tree/main/tasks"
+          }
+        },
+        {
+          "name": "ScienceBoard-Env",
+          "type": "Infrastructure",
+          "url": "https://huggingface.co/OS-Copilot/ScienceBoard-Env",
+          "description": "The preconfigured Ubuntu virtual machine.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/OS-Copilot/ScienceBoard-Env"
+          }
+        },
+        {
+          "name": "ScienceBoard-Traj",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj",
+          "description": "Recorded agent trajectories.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj"
+          }
+        }
+      ],
+      "notes": [
+        "The homepage Data link at https://huggingface.co/datasets/OS-Copilot/ScienceBoard returned HTTP 401; use the public task definitions instead.",
+        "The current code repository also includes a Docker backend; the published VM resource remains available."
+      ]
+    },
+    {
+      "id": "os-sentinel",
+      "name": "OS-Sentinel",
+      "homepage": "https://qiushisun.github.io/OS-Sentinel-Home/",
+      "github": "https://github.com/OS-Copilot/OS-Sentinel",
+      "summary": "Detects mobile-agent safety risks with system-level checks and contextual judgment.",
+      "role": "Safety evaluation and detection",
+      "cover": "os-sentinel.jpeg",
+      "coverKind": "key art",
+      "artifacts": [
+        {
+          "name": "MobileRisk",
+          "type": "Benchmark",
+          "url": "https://huggingface.co/datasets/OS-Copilot/MobileRisk",
+          "description": "Annotated safe and unsafe mobile trajectories.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/MobileRisk"
+          }
+        },
+        {
+          "name": "MobileRisk-Live",
+          "type": "Infrastructure",
+          "url": "https://github.com/OS-Copilot/OS-Sentinel",
+          "description": "Live mobile sandbox and setup instructions.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/OS-Sentinel"
+          }
+        },
+        {
+          "name": "Hybrid safety evaluator",
+          "type": "Code",
+          "url": "https://github.com/OS-Copilot/OS-Sentinel/tree/master/mobile_safety/evaluator",
+          "description": "Formal checks and contextual safety judgment.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/OS-Sentinel/tree/master/mobile_safety/evaluator"
+          }
+        }
+      ],
+      "notes": [
+        "The homepage MobileRisk-Live button leads to a collection containing the paper and dataset, so the infrastructure resource links to the code repository instead."
+      ]
+    },
+    {
+      "id": "openmobile-2",
+      "name": "OpenMobile-2",
+      "homepage": "https://os-copilot.github.io/OpenMobile2-Home/",
+      "github": "https://github.com/OpenMobile2/OpenMobile2-Code",
+      "summary": "Trains mobile agents on scalable app environments with shared GUI and tool access.",
+      "role": "Mobile environments and agent training",
+      "cover": "openmobile-2-logo.png",
+      "coverKind": "official mascot logo",
+      "artifacts": [
+        {
+          "name": "MobileGym++",
+          "type": "Infrastructure",
+          "url": "https://github.com/OpenMobile2/MobileGym-plusplus",
+          "description": "Simulated and emulator apps with resettable state.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OpenMobile2/MobileGym-plusplus"
+          }
+        },
+        {
+          "name": "OpenMobile-Data",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OpenMobile-2/OpenMobile-Data-v2",
+          "description": "Demonstrations and executable tasks for training.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OpenMobile-2/OpenMobile-Data-v2"
+          }
+        },
+        {
+          "name": "OpenMobile-2 models",
+          "type": "Models",
+          "url": "https://huggingface.co/OpenMobile-2",
+          "description": "The released mobile-agent model family.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/OpenMobile-2"
+          }
+        }
+      ],
+      "notes": [
+        "The homepage hero is an interactive phone simulator rather than a static cover. The 512px official favicon is the clearest static mascot found.",
+        "The homepage data URL redirects from OpenMobile-Data to OpenMobile-Data-v2."
+      ]
+    },
+    {
+      "id": "osreward",
+      "name": "OSReward",
+      "homepage": "https://os-copilot.github.io/OSReward-Home/",
+      "github": "https://github.com/OS-Copilot/OSReward",
+      "summary": "Evaluates trajectory judges across platforms and releases data and models for computer-use rewards.",
+      "role": "Reward evaluation and modeling",
+      "cover": "osreward.png",
+      "coverKind": "key art",
+      "artifacts": [
+        {
+          "name": "OSReward",
+          "type": "Benchmark",
+          "url": "https://huggingface.co/datasets/OS-Copilot/OSReward",
+          "description": "Human-annotated computer-use trajectory judgments.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/OSReward"
+          }
+        },
+        {
+          "name": "OS-Shepherd-100K",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OS-Copilot/OS-Shepherd-100K",
+          "description": "Reasoning-annotated trajectory judgments for training.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/OS-Shepherd-100K"
+          }
+        },
+        {
+          "name": "OS-Shepherd 9B / 35B",
+          "type": "Models",
+          "url": "https://huggingface.co/collections/OS-Copilot/osreward-and-os-shepherd",
+          "description": "Open reward models trained on OS-Shepherd-100K.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/collections/OS-Copilot/osreward-and-os-shepherd"
+          }
+        }
+      ],
+      "notes": [
+        "The local cover is the 900x900 official public/cover.png key art, not the text-bearing Open Graph card."
+      ]
+    },
+    {
+      "id": "os-symphony",
+      "name": "OS-Symphony",
+      "homepage": "https://os-copilot.github.io/OS-Symphony/",
+      "github": "https://github.com/OS-Copilot/OS-Symphony",
+      "summary": "Coordinates memory, reflection and specialized tools for cross-platform desktop tasks.",
+      "role": "Generalist agent orchestration",
+      "cover": "os-symphony.png",
+      "coverKind": "official hero illustration",
+      "artifacts": [
+        {
+          "name": "OS-Symphony framework",
+          "type": "Code",
+          "url": "https://github.com/OS-Copilot/OS-Symphony",
+          "description": "Cross-platform desktop agent framework.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/OS-Symphony"
+          }
+        },
+        {
+          "name": "Reflection-Memory Agent",
+          "type": "Code",
+          "url": "https://github.com/OS-Copilot/OS-Symphony/blob/main/mm_agents/os_symphony/agents/memoryer_agent.py",
+          "description": "Trajectory reflection and long-term task memory.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/OS-Symphony/blob/main/mm_agents/os_symphony/agents/memoryer_agent.py"
+          }
+        },
+        {
+          "name": "Multimodal Searcher",
+          "type": "Code",
+          "url": "https://github.com/OS-Copilot/OS-Symphony/blob/main/mm_agents/os_symphony/agents/searcher_agent.py",
+          "description": "Visual tutorial retrieval for unfamiliar workflows.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://github.com/OS-Copilot/OS-Symphony/blob/main/mm_agents/os_symphony/agents/searcher_agent.py"
+          }
+        }
+      ]
+    },
+    {
+      "id": "os-atlas",
+      "name": "OS-Atlas",
+      "homepage": "https://osatlas.github.io/",
+      "github": "https://github.com/OS-Copilot/OS-Atlas",
+      "summary": "Grounds interface elements and predicts actions across web, desktop and mobile environments.",
+      "role": "GUI grounding and action models",
+      "cover": "os-atlas.png",
+      "coverKind": "wide overview figure",
+      "logo": "os-atlas-logo.ico",
+      "artifacts": [
+        {
+          "name": "OS-Atlas action model",
+          "type": "Models",
+          "url": "https://huggingface.co/OS-Copilot/OS-Atlas-Pro-7B",
+          "description": "The action-model destination linked from the homepage.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/OS-Copilot/OS-Atlas-Pro-7B"
+          }
+        },
+        {
+          "name": "OS-Atlas grounding data",
+          "type": "Data",
+          "url": "https://huggingface.co/datasets/OS-Copilot/OS-Atlas-data",
+          "description": "Cross-platform GUI element annotations.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/OS-Atlas-data"
+          }
+        },
+        {
+          "name": "ScreenSpot-v2",
+          "type": "Benchmark",
+          "url": "https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2",
+          "description": "GUI grounding evaluation.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2"
+          }
+        }
+      ],
+      "notes": [
+        "The homepage Models URL redirects from OS-Atlas-Action-7B to OS-Atlas-Pro-7B.",
+        "No square cover art is present on the homepage. Use the official mascot favicon for a compact orbital node; retain the wide overview in expanded detail."
+      ]
+    },
+    {
+      "id": "agentstore",
+      "name": "AgentStore",
+      "homepage": "https://chengyou-jia.github.io/AgentStore-Home/",
+      "github": "https://github.com/chengyou-jia/AgentStore",
+      "githubStatus": "HTTP 404 at verification",
+      "summary": "Integrates specialized agents and routes computer tasks through a shared MetaAgent.",
+      "role": "Specialist agent integration",
+      "cover": "agentstore.png",
+      "coverKind": "wide framework figure",
+      "logo": "agentstore-logo.png",
+      "artifacts": [
+        {
+          "name": "AgentToken-8B",
+          "type": "Models",
+          "url": "https://huggingface.co/ChengyouJia/AgentToken-8B",
+          "description": "The released model for agent selection and coordination.",
+          "verification": {
+            "httpStatus": 200,
+            "resolvedUrl": "https://huggingface.co/ChengyouJia/AgentToken-8B"
+          }
+        }
+      ],
+      "components": [
+        {
+          "name": "AgentPool",
+          "description": "A shared collection of specialized agents."
+        },
+        {
+          "name": "AgentEnroll",
+          "description": "A protocol for adding agents and their capabilities."
+        },
+        {
+          "name": "MetaAgent",
+          "description": "Selects agents to work independently or together."
+        }
+      ],
+      "notes": [
+        "The official code link returns HTTP 404 in direct GitHub and API requests, although it is present in older search-index content. Do not present it as an available download.",
+        "The homepage and author Hugging Face account verify AgentToken-8B. No separate public dataset or benchmark release was found; do not invent additional artifact links.",
+        "No square hero art is present. The 512px robot favicon is available as an official compact alternative."
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "os-genesis.jpeg",
+      "source": "https://qiushisun.github.io/OS-Genesis-Home/static/img/os-genesis.jpeg",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "bytes": 435476
+    },
+    {
+      "file": "scienceboard.jpeg",
+      "source": "https://qiushisun.github.io/ScienceBoard-Home/static/img/scienceboard-cover.jpeg",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "bytes": 507539
+    },
+    {
+      "file": "os-sentinel.jpeg",
+      "source": "https://qiushisun.github.io/OS-Sentinel-Home/static/img/os-sentinel-cover.jpeg",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "bytes": 505557
+    },
+    {
+      "file": "openmobile-2.png",
+      "source": "https://os-copilot.github.io/OpenMobile2-Home/public/logo.png",
+      "pixelWidth": 88,
+      "pixelHeight": 88,
+      "bytes": 12513
+    },
+    {
+      "file": "osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/cover.png",
+      "pixelWidth": 900,
+      "pixelHeight": 900,
+      "bytes": 507178
+    },
+    {
+      "file": "os-symphony.png",
+      "source": "https://os-copilot.github.io/OS-Symphony/static/img/os-symphony.PNG",
+      "pixelWidth": 895,
+      "pixelHeight": 961,
+      "bytes": 1522731
+    },
+    {
+      "file": "os-atlas.png",
+      "source": "https://osatlas.github.io/static/images/Intro.png",
+      "pixelWidth": 4789,
+      "pixelHeight": 1246,
+      "bytes": 1100064
+    },
+    {
+      "file": "agentstore.png",
+      "source": "https://chengyou-jia.github.io/AgentStore-Home/static/images/overview.png",
+      "pixelWidth": 1724,
+      "pixelHeight": 566,
+      "bytes": 426641
+    },
+    {
+      "file": "os-atlas-logo.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/logos/projects/os-atlas.png",
+      "pixelWidth": 88,
+      "pixelHeight": 88,
+      "bytes": 3294
+    },
+    {
+      "file": "openmobile-2-logo.png",
+      "source": "https://os-copilot.github.io/OpenMobile2-Home/public/favicon-512.png",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "bytes": 66242
+    },
+    {
+      "file": "osreward-logo.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/favicon-512.png",
+      "pixelWidth": 512,
+      "pixelHeight": 512,
+      "bytes": 52182
+    },
+    {
+      "file": "agentstore-logo.png",
+      "source": "https://chengyou-jia.github.io/AgentStore-Home/static/favicon_io/android-chrome-512x512.png",
+      "bytes": 36592
+    },
+    {
+      "file": "os-atlas-logo.ico",
+      "source": "https://osatlas.github.io/static/images/os-atlas.ico",
+      "bytes": 229214
+    }
+  ],
+  "relationships": [
+    {
+      "from": "os-genesis",
+      "to": "openmobile-2",
+      "basis": "thematic",
+      "description": "Both study how interaction data supports training GUI agents; no direct pipeline dependency is claimed."
+    },
+    {
+      "from": "os-genesis",
+      "to": "osreward",
+      "basis": "thematic",
+      "description": "Trajectory synthesis and trajectory judgment address complementary parts of agent training."
+    },
+    {
+      "from": "scienceboard",
+      "to": "os-sentinel",
+      "basis": "thematic",
+      "description": "Both provide live task environments and benchmarks, with scientific workflows and mobile safety as distinct targets."
+    },
+    {
+      "from": "os-sentinel",
+      "to": "osreward",
+      "basis": "thematic",
+      "description": "Safety detection and task-success judgment assess different properties of agent trajectories."
+    },
+    {
+      "from": "os-symphony",
+      "to": "agentstore",
+      "basis": "thematic",
+      "description": "Both coordinate specialized capabilities within a generalist computer-assistant framework."
+    },
+    {
+      "from": "os-atlas",
+      "to": "scienceboard",
+      "basis": "documented evaluation integration",
+      "description": "ScienceBoard includes an OS-Atlas model configuration for scientific-workflow evaluation.",
+      "source": "https://huggingface.co/OS-Copilot/ScienceBoard-Env"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Generated high-resolution reconstruction of the OS-Genesis mascot",
+  "tool": "Built-in image_gen.imagegen",
+  "officialLogo": false,
+  "transparentBackground": true,
+  "output": "assets/logos/os-genesis-hd.png",
+  "generatedFile": "exec-6bd08530-d3d0-456c-a137-61d1089d675c.png",
+  "references": [
+    {
+      "local": "assets/logos/os-genesis-nav.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/logos/projects/os-genesis.png",
+      "role": "Direct image-generation edit reference"
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Reconstruct the supplied small OS-Genesis mascot image as a genuinely high-resolution clean transparent icon. Use the supplied image as the exact edit/reference target: retain the same compact white-and-blue robot, rounded dark navy glass face, bright cyan circular eyes, antenna, blue side earpieces, seated pose, little white limbs, and the open orange handbook that it is holding at the front. Keep the main pose, silhouette, orientation, palette, and recognizable character unchanged. Improve resolution, smooth antialiasing, crisp contour edges, ceramic/metal material detail, and restrained highlights so it looks clear at 64 to 160 pixels on a website. Do not merely blur or enlarge the pixelated source; redraw the same visual identity cleanly. Keep the orange manual broad and legible as a book, with blue inner-page accents but absolutely no letters, words, symbols that resemble text, or numbers. No new props, no extra characters, no scene, no background rectangle, no circular badge, no shadow matte, no watermark. Preserve the white robot interior as opaque. Use genuine transparent alpha outside the complete mascot, with a little clean breathing room around its edges. This generated reconstruction is for a project hub and is not represented as an untouched official logo.",
+  "note": "Generated reconstruction, not an untouched original official logo. Retains the blue-white seated robot and orange handbook while replacing the low-resolution rendering. No text.",
+  "verification": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "fullyTransparentPixels": 781986,
+    "pixelsWithAlphaAtLeast240": 774697,
+    "bytes": 1238674,
+    "visualReview": "Generated result inspected: clear subject, no text, no background rectangle."
+  }
+}

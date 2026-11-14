@@ -1,0 +1,23 @@
+{
+  "title": "AgentStore thematic cover",
+  "assetType": "Generated research-project cover illustration",
+  "officialLogo": false,
+  "tool": "Built-in image_gen.imagegen",
+  "output": "assets/covers/agentstore-cover-v1.png",
+  "generatedFile": "exec-85939675-b468-4bf2-8643-2ed392d958c4.png",
+  "styleReferencesInspected": [
+    {
+      "local": "assets/covers/osreward.png",
+      "source": "https://os-copilot.github.io/OSReward-Home/public/cover.png"
+    },
+    {
+      "local": "assets/covers/os-genesis.jpeg",
+      "source": "https://qiushisun.github.io/OS-Genesis-Home/static/img/os-genesis.jpeg"
+    }
+  ],
+  "subjectSource": "https://chengyou-jia.github.io/AgentStore-Home/",
+  "subject": "A coordinating MetaAgent with three specialist agents operating code, browser, and desktop workstations.",
+  "prompt": "Use case: stylized-concept. Asset type: square 1:1 research-project cover illustration for AgentStore, a framework where a MetaAgent coordinates specialized computer-using agents. Create an ORIGINAL thematic cover illustration, not an official logo.\nScene: a refined, quiet computer workshop in deep midnight navy and Prussian blue. One small, carefully crafted friendly robot coordinates exactly three smaller specialist robots working at separate desktop, browser, and code workstations. The main robot is near the center, with a small full body, short articulated arms, softly glowing cyan oval eyes behind a dark glass face, pale ivory metal, and delicate aged-gold trim. It gently directs fine cyan light paths from a central glass worktable toward the three specialists. Show coordination and exchange through these simple elegant connections, without a diagram.\nComposition: square image, strong clear center, carefully layered foreground, middle distance, and background. The foreground worktable has precise etched gold edges and a cyan glass surface; one specialist and a laptop are on the left, one specialist and a browser workstation are on the right, and the third specialist works at a more distant desktop behind the central robot. The robots are physically present in the same three-dimensional room. Make the scene rich enough to read as a complete world while keeping its silhouettes clear at thumbnail size. Keep all key subjects inside a comfortable roughly 10 percent outer margin for orbital-card cropping.\nStyle: fine painterly and engraved storybook science-fiction illustration, gentle oil-paint texture, sculpted metal and glass, restrained ornament, subtle architectural depth and light haze. Harmonize with a family of computer-agent covers featuring small ivory-and-gold robots, richly textured blue rooms, luminous cyan screens, and warm gold circuitry. Use sophisticated material detail and soft directional illumination. Do not make a flat sticker, emoji, app icon, plastic toy render, or enormous floating robot head. Navy and blue should dominate; warm gold is a selective accent.\nScreen contents: only restrained abstract visual layouts of a desktop file workspace, a web page, and a code workspace, indicated by small colored bars and panels without any readable characters. No text, no letters, no numbers, no labels, no badges, no logos, no watermarks, no dense floating icon cloud. No giant trophy, star, or central glowing symbol. Make it attractive, composed, and legible rather than busy.",
+  "verification": "Visually inspected: square composition, four robots with differentiated workstations, foreground/midground/background depth, navy/cyan/gold palette, no readable text. The right specialist is partly cropped at the outer edge; the coordinator remains fully centered.",
+  "note": "Newly generated thematic artwork for this hub; not an official AgentStore logo or a reproduction of an existing project figure."
+}

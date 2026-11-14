@@ -1,0 +1,27 @@
+{
+  "asset": "os-omni-cover-v2.png",
+  "version": "V2",
+  "status": "Generated project cover; not an official logo or original project illustration.",
+  "tool": "image_gen.imagegen",
+  "mode": "Built-in image edit",
+  "userRevision": "Differentiate the new covers in palette, environment and robot details; replace the shared navy-and-gold Gothic-library treatment. Preserve each project's theme and mascot identity. Save V2 separately without overwriting V1.",
+  "prompt": "Use case: style-transfer.\nEdit target: image 1, the existing OS-Omni project cover. Identity reference: image 2, the user's OS-Omni robot logo.\nUser revision: the covers currently look too similar. Create a substantially different setting, palette, and robot detailing for this version. Preserve the project theme and recognizable mascot, but repaint the whole environment and composition. The result must be unmistakably different from the navy-and-gold Gothic library in image 1.\nNew scene: an open circular cross-platform observatory, airy and spacious, with segmented concentric workbenches, satin silver structural ribs, pale lavender glass, and panoramic curved openings onto a quiet indigo-lavender atmospheric horizon. Modern precision architecture with an open center, not a library or cathedral. Place the blue-white robot in the middle ground on a small silver-and-violet platform; a miniature cyan globe sits on one neighboring bench segment. Several devices in distinct physical shapes occupy separate workbench segments at different depths: a wide desktop display, an open laptop, a slim tablet, an upright phone, and a small terminal. A few thin cyan connections travel between devices to convey a multi-stage cross-platform workflow. Keep generous negative space between the devices and reveal the circular floor plan.\nMascot identity: keep the round white helmet, little antenna, circular blue ear pieces, dark-blue face with two bright round cyan eyes, compact white body and cyan chest panel from image 2. Give this version refined segmented silver-white armor, narrow indigo seams, articulated dark joints, small modular wrist connectors and side equipment panels, and quiet pale-lavender reflections. It should feel like a precise cross-platform navigation robot, not the gold robot of other covers. Keep the entire robot legible and clearly separated from its background.\nPalette: indigo, pale violet, lavender and silver-white are dominant. Cold cyan only as a restrained accent. No gold filigree, amber room lighting, midnight-blue-and-gold palette, or ornamental brass.\nStyle and materials: high-quality painterly illustration with credible physical materials, fine brushed silver, layered ceramic armor, etched glass, tactile foreground surfaces, soft volumetric lighting, meaningful perspective, and carefully modeled shadows. It should have the finish and depth of a polished research cover, while visibly differing from the original setting. No flat vector art, logo collage, emoji, sticker, or glossy plastic toy look.\nComposition: 1:1 square finished cover, fully opaque background. Strong foreground/middle/background depth. Main robot occupies approximately one third of the height and reads clearly at a 120-pixel thumbnail. Keep important devices, globe, robot head, and limbs fully inside the frame. Recompose freely; preserving the old Gothic composition is explicitly not required.\nInterface content: large unlabeled graphical blocks, application windows, document shapes and simple terminal strokes. No text, letters, digits, company marks, platform logos, chart labels, watermarks or typography. No Gothic arches, arched windows, bookshelves, chandeliers, leaves, ancient libraries, gold engravings, or reward stars.",
+  "references": [
+    {
+      "path": "assets/covers/os-omni-cover-v1.png",
+      "role": "Edit target; setting and composition deliberately replaced"
+    },
+    {
+      "path": "assets/logos/os-omni.png",
+      "role": "User-provided mascot identity reference"
+    }
+  ],
+  "generatedSource": "exec-3e356e09-3363-40a7-ac14-ccf9413d2631.png",
+  "transparentBackground": false,
+  "postprocessing": "None. Original generated PNG copied without modification.",
+  "inspection": {
+    "reviewed": true,
+    "notes": "Lavender/indigo and silver-white open circular observatory. Original round-head antenna robot is retained with segmented silver-white armor, dark joints, wrist details and modular side panels. Distinct desktop, laptop, phone, tablet and terminal surround segmented benches and a cyan miniature globe. No Gothic library, golden ornamentation or typography.",
+    "placementNote": "Final 120 px Hub placement should be inspected by the page owner."
+  }
+}
