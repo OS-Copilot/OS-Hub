@@ -54,14 +54,14 @@ export const projects = [
         "type": "Benchmark",
         "description": "Task definitions for scientific workflows.",
         "url": "https://github.com/OS-Copilot/ScienceBoard/tree/main/tasks",
-        "logo": "assets/logos/scienceboard-hd.png"
+        "logo": "assets/logos/scienceboard-benchmark-hd.png"
       },
       {
         "name": "ScienceBoard-Env",
         "type": "Infrastructure",
         "description": "The preconfigured Ubuntu virtual machine.",
         "url": "https://huggingface.co/OS-Copilot/ScienceBoard-Env",
-        "logo": "assets/logos/scienceboard-hd.png",
+        "logo": "assets/logos/scienceboard-env-hd.png",
         "tags": [
           "Ubuntu VM"
         ]
@@ -71,7 +71,7 @@ export const projects = [
         "type": "Data",
         "description": "Recorded agent trajectories.",
         "url": "https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj",
-        "logo": "assets/logos/scienceboard-hd.png"
+        "logo": "assets/logos/scienceboard-traj-hd.png"
       }
     ],
     "logo": "assets/logos/scienceboard-hd.png",

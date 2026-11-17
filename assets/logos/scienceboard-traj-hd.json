@@ -1,0 +1,12 @@
+{
+  "title": "ScienceBoard traj generated resource mascot",
+  "tool": "Built-in image_gen.imagegen",
+  "officialLogo": false,
+  "transparentBackground": true,
+  "output": "assets/logos/scienceboard-traj-hd.png",
+  "references": [
+    "assets/logos/scienceboard-hd.png",
+    "assets/logos/osreward-benchmark-hd.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: square transparent resource mascot PNG for OS-Hub. Generate a new ScienceBoard resource illustration matching the supplied reference images. Image 1 is the ScienceBoard character identity and palette reference; image 2 is the rendering quality and compact resource-icon composition reference. Preserve the recognizable friendly robot scientist: ivory white ceramic body, cobalt blue trim, restrained metallic gold details, navy glass face, two luminous cyan oval eyes, scientist coat. Polished detailed 3D illustrated rendering, crisp silhouette readable at small card sizes, full body in frame with comfortable edge margins. Genuine transparent background, opaque white robot body. No environment, no floor, no backdrop, no text, letters, numbers, watermark, or official branding claims. Subject: ScienceBoard-Traj, recorded computer-agent interaction trajectories for scientific workflows. Same robot scientist holding a stylus, tracing a clear cyan path across a large tilted navy-blue glass tablet supported in the other hand. Tablet shows three ordered connected rounded square panels, one with a flask symbol, one with a simple molecular symbol, one with a bar chart, linked by two gold directional arrows to communicate recorded steps. A small blue-and-gold stacked data cylinder sits beside the robot's feet, visually distinct and subordinate. Compact balanced full-body composition. No checklist, no checkmarks, no gear, no desktop workstation. Keep tablet icons bold and simple rather than dense UI."
+}

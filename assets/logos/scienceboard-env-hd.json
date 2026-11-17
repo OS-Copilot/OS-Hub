@@ -1,0 +1,12 @@
+{
+  "title": "ScienceBoard env generated resource mascot",
+  "tool": "Built-in image_gen.imagegen",
+  "officialLogo": false,
+  "transparentBackground": true,
+  "output": "assets/logos/scienceboard-env-hd.png",
+  "references": [
+    "assets/logos/scienceboard-hd.png",
+    "assets/logos/osreward-benchmark-hd.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: square transparent resource mascot PNG for OS-Hub. Generate a new ScienceBoard resource illustration matching the supplied reference images. Image 1 is the ScienceBoard character identity and palette reference; image 2 is the rendering quality and compact resource-icon composition reference. Preserve the recognizable friendly robot scientist: ivory white ceramic body, cobalt blue trim, restrained metallic gold details, navy glass face, two luminous cyan oval eyes, scientist coat. Polished detailed 3D illustrated rendering, crisp silhouette readable at small card sizes, full body in frame with comfortable edge margins. Genuine transparent background, opaque white robot body. No environment, no floor, no backdrop, no text, letters, numbers, watermark, or official branding claims. Subject: ScienceBoard-Env, a preconfigured scientific desktop virtual machine. The robot scientist stands beside a compact blue-white desktop workstation, one hand adjusting a small metallic gold gear on its side, the other presenting the screen. The screen contains just a large clear cyan molecular ball-and-stick symbol and two simple blue application panels, no text. A small stacked server unit integrated beneath the screen conveys the virtual machine environment. Compact unified silhouette, friendly capable pose; workstation large enough to distinguish from a handheld clipboard. No floating icon cloud."
+}
