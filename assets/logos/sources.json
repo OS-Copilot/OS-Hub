@@ -103,8 +103,8 @@
           0
         ]
       },
-      "displayPath": "assets/logos/osreward-hd.png",
-      "editRecord": "assets/logos/osreward-hd.json"
+      "displayPath": "assets/logos/osreward-star-hd.png",
+      "editRecord": "assets/logos/osreward-star-hd.json"
     },
     "os-shepherd": {
       "path": "assets/logos/os-shepherd.png",
@@ -215,18 +215,18 @@
   "resourceLogos": [
     {
       "name": "OSReward benchmark",
-      "logo": "osreward",
-      "usage": "Project logo"
+      "logo": "osreward-benchmark-hd",
+      "usage": "Generated resource icon in the OSReward mascot set (assets/logos/osreward-benchmark-hd.json)"
     },
     {
       "name": "OS-Shepherd models",
-      "logo": "os-shepherd",
-      "usage": "Official model-family logo"
+      "logo": "os-shepherd-hd",
+      "usage": "Generated resource icon in the OSReward mascot set (assets/logos/os-shepherd-hd.json)"
     },
     {
       "name": "OS-Shepherd-100K",
-      "logo": "os-shepherd",
-      "usage": "Shared family logo; no separate corpus logo was found"
+      "logo": "os-shepherd-100k-hd",
+      "usage": "Generated resource icon in the OSReward mascot set (assets/logos/os-shepherd-100k-hd.json)"
     },
     {
       "name": "ScienceBoard benchmark",

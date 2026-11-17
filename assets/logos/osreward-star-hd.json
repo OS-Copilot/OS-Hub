@@ -1,0 +1,49 @@
+{
+  "name": "OSReward hub mascot — reward star (V2)",
+  "file": "assets/logos/osreward-star-hd.png",
+  "createdOn": "2026-11-16",
+  "creationMethod": "Built-in image_gen (Codex CLI 0.169.0)",
+  "generationType": "New generated hub mascot for OSReward (candidate C of three: judge, shepherd, reward star). Not an official release asset; the OSReward homepage keeps its own brand mark.",
+  "previousVersionPreserved": "assets/logos/osreward-hd.png",
+  "references": [
+    {
+      "path": "assets/logos/openmobile-2-hd.png",
+      "role": "Hub visual-family reference"
+    },
+    {
+      "path": "assets/logos/os-genesis-hd.png",
+      "role": "Hub visual-family reference"
+    },
+    {
+      "path": "assets/logos/osreward-hd.png",
+      "role": "Previous OSReward mascot; the new design was asked to differ from it"
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "prompt": "Use your built-in image generation tool to create THREE separate images, and save them as _candidates/osreward-A.png, _candidates/osreward-B.png and _candidates/osreward-C.png in this repository. Create nothing else.\n\nContext: these are candidate NEW mascots for the OSReward project in the OS-Copilot research hub. OSReward is about judging whether a computer-use agent really completed its task (a \"reward model\" / \"judge\"), and its open models are called OS-Shepherd. The attached images are other projects' mascots in the same hub: match their visual family (polished 3D cartoon illustration, glossy white robot shells, navy faces, glowing cyan eyes, crisp contours, soft shading), but each new design must be clearly DIFFERENT from the attached OSReward mascot (the seated robot holding a radar tablet with target, chart and checklist icons) — do not reuse that pose, tablet or icon arrangement.\n\nBrand palette for all three: white and deep navy robot, with warm GOLD (#e2c377 / #cfa54b) as the signature accent, small touches of cyan; no green-dominant scheme.\n\nA — \"The judge\": a small friendly robot judge holding a golden verdict stamp, beside two small floating cards, one with a check mark and one with a cross; a simple screen frame behind it hints at a computer screen being judged.\nB — \"The shepherd\": a small robot holding a slim golden shepherd's crook, gently guiding three tiny floating app windows / screens like a flock; calm, protective feeling.\nC — \"The reward star\": a small robot holding up a glowing golden star with both hands, with a few thin golden orbit lines and small sparkles around it.\n\nFor all three: one compact complete character centred on a square 1:1 canvas with comfortable margins, readable at 46 px and at 256 px; strong simple silhouette; genuinely transparent background (no backdrop, plate, frame or glow haze filling the canvas); no text, letters or numbers; no watermark.\n\nAfter saving, report each path and its pixel size.",
+  "visualReview": {
+    "inspected": true,
+    "design": "White-and-navy robot with gold trim holding up a glowing gold star, thin gold orbit lines and sparkles",
+    "checked": [
+      "Distinct from the previous mascot",
+      "Readable at 46 px on dark and light hub themes",
+      "Gold accent matches the OSReward palette"
+    ],
+    "textPresent": false,
+    "backgroundRectanglePresent": false
+  },
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "alphaChannel": true,
+    "fullyTransparentPixels": 966082,
+    "fullyOpaquePixels": 446,
+    "partiallyTransparentPixels": 605988,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -171,28 +171,28 @@ export const projects = [
         "type": "Benchmark",
         "description": "1,019 human-gold trajectories on four platforms, with Hard and Multi sets.",
         "url": "https://huggingface.co/datasets/OS-Copilot/OSReward",
-        "logo": "assets/logos/osreward-hd.png"
+        "logo": "assets/logos/osreward-benchmark-hd.png"
       },
       {
         "name": "OS-Shepherd-100K",
         "type": "Data",
         "description": "Reasoning-annotated judge samples kept by ensemble agreement.",
         "url": "https://huggingface.co/datasets/OS-Copilot/OS-Shepherd-100K",
-        "logo": "assets/logos/osreward-hd.png"
+        "logo": "assets/logos/os-shepherd-100k-hd.png"
       },
       {
         "name": "OS-Shepherd 9B / 35B",
         "type": "Models",
         "description": "Open reward models level with commercial judges at far lower cost.",
         "url": "https://huggingface.co/collections/OS-Copilot/osreward-and-os-shepherd",
-        "logo": "assets/logos/osreward-hd.png",
+        "logo": "assets/logos/os-shepherd-hd.png",
         "tags": [
           "9B",
           "35B"
         ]
       }
     ],
-    "logo": "assets/logos/osreward-hd.png",
+    "logo": "assets/logos/osreward-star-hd.png",
     "orbit": "inner"
   },
   {

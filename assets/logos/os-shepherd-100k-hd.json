@@ -1,0 +1,35 @@
+{
+  "name": "OS-Shepherd-100K data resource icon — the dataset",
+  "file": "assets/logos/os-shepherd-100k-hd.png",
+  "createdOn": "2026-11-16",
+  "creationMethod": "Built-in image_gen (Codex CLI 0.169.0)",
+  "generationType": "New generated hub resource icon in the OSReward mascot set (project logo: osreward-star-hd.png). Not an official release asset.",
+  "usedFor": "OS-Shepherd-100K",
+  "design": "Fourth member of the OSReward mascot set: robot carrying a stack of screenshot cards with a reasoning note.",
+  "transparentBackgroundRequested": true,
+  "prompt": "Use your built-in image generation tool to create ONE image and save it as _candidates/osreward-D.png in this repository. Create nothing else.\n\nIt is the icon for \"OS-Shepherd-100K\", a released DATASET of ~100K reasoning-annotated judge samples (each sample is a computer-use trajectory plus a judge's written reasoning and verdict). It will sit next to the three attached mascots (osreward-A judge, osreward-B shepherd, osreward-C reward star) as a sibling in the same set, so it must clearly belong to the same family: the same small white-and-navy robot with gold trim, glowing cyan eyes, the same 3D cartoon rendering, lighting and line quality.\n\nDesign D — \"The dataset\": the same small robot carrying / hugging a tall neat stack of glowing screen cards (like a stack of small screenshots), the top card showing a tiny gold check mark and a small speech-bubble-shaped note card floating beside the stack to suggest written reasoning. A few small gold sparkles. Pose and silhouette must be clearly different from A (stamp + cards), B (crook) and C (star held overhead), so the four read as different icons at 60 px.\n\nRequirements: one compact complete character centred on a square 1:1 canvas with comfortable margins, strong simple silhouette readable at 60 px, genuinely transparent background (no backdrop, plate, frame or glow haze), no text, letters or numbers, no watermark.\n\nAfter saving, report the path and pixel size.",
+  "visualReview": {
+    "inspected": true,
+    "checked": [
+      "Same visual family as the OSReward project mascot",
+      "Distinct silhouette from the other three OSReward icons at 60 px",
+      "Readable on dark and light hub themes"
+    ],
+    "textPresent": false,
+    "backgroundRectanglePresent": false
+  },
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "alphaChannel": true,
+    "fullyTransparentPixels": 744903,
+    "fullyOpaquePixels": 731,
+    "partiallyTransparentPixels": 826882,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

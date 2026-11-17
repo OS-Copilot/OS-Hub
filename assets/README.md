@@ -13,7 +13,11 @@ The current generated assets use the built-in `imagegen` tool. Original official
 | ScienceBoard mascot | [PNG](logos/scienceboard-hd.png) | [JSON](logos/scienceboard-hd.json) |
 | OS-Genesis mascot | [PNG](logos/os-genesis-hd.png) | [JSON](logos/os-genesis-hd.json) |
 | OpenMobile-2 mascot | [PNG](logos/openmobile-2-hd.png) | [JSON](logos/openmobile-2-hd.json) |
-| OSReward mascot | [PNG](logos/osreward-hd.png) | [JSON](logos/osreward-hd.json) |
+| OSReward mascot | [PNG](logos/osreward-star-hd.png) | [JSON](logos/osreward-star-hd.json) |
+| OSReward benchmark icon | [PNG](logos/osreward-benchmark-hd.png) | [JSON](logos/osreward-benchmark-hd.json) |
+| OS-Shepherd-100K icon | [PNG](logos/os-shepherd-100k-hd.png) | [JSON](logos/os-shepherd-100k-hd.json) |
+| OS-Shepherd models icon | [PNG](logos/os-shepherd-hd.png) | [JSON](logos/os-shepherd-hd.json) |
+| OSReward mascot, earlier HD redraw | [PNG](logos/osreward-hd.png) | [JSON](logos/osreward-hd.json) |
 | OS-Atlas background removal | [PNG](logos/os-atlas-transparent.png) | [JSON](logos/os-atlas-edit.json) |
 | Central globe | [PNG](scene/digital-globe.png) | [JSON](scene/digital-globe.json) |
 
