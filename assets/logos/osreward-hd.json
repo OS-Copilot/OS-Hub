@@ -1,0 +1,52 @@
+{
+  "name": "OSReward HD hub redraw",
+  "file": "assets/logos/osreward-hd.png",
+  "createdOn": "2026-11-16",
+  "creationMethod": "Built-in image_gen (Codex CLI 0.169.0)",
+  "generationType": "New high-definition redraw based on the official mascot; not an original official release asset and not a pixel upscale.",
+  "generatedSource": "exec-1959c54b-d45d-4ed3-9123-94cff9108b3e.png",
+  "references": [
+    {
+      "path": "assets/logos/osreward.png",
+      "role": "Identity and composition reference (attached as the 768 px source OS-Shepherd-logo-v3.png)",
+      "originalSource": "https://os-copilot.github.io/OSReward-Home/public/logos/OS-Shepherd-logo-v3.png"
+    },
+    {
+      "path": "assets/logos/openmobile-2-hd.png",
+      "role": "Finish and line-quality reference only"
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "prompt": "Use your built-in image generation tool to create ONE image, then save it into this repository at assets/logos/osreward-hd.png (create nothing else in the repo).\n\nTask: a new high-definition redraw of the attached official OSReward / OS-Shepherd mascot, for the OS-Copilot hub's project index, where every project has a ~1254x1254 HD mascot on a transparent background (see assets/logos/openmobile-2-hd.png and assets/logos/os-genesis-hd.png for the target finish and line quality).\n\nKeep the identity exactly: the same small round white robot with a glossy navy visor, two large glowing cyan eyes, cyan ear discs, short antenna with a ball tip, sitting and holding a dark green tablet that shows a radar sweep. Keep the same surrounding motifs and their positions: a green target/crosshair top-left, a dark chart card with a rising green line top-right, a white checklist card with green checks on the left, green bar chart bottom-right, thin dashed connector lines. Same cheerful 3D-illustration style, white/navy/cyan/green palette.\n\nImprove only quality: crisp clean edges, refined shading and material, consistent lighting, sharper small details, balanced composition centred in a square canvas with comfortable margins so it reads at 46 px and at 256 px.\n\nRequirements: square 1:1, fully transparent background (no backdrop, no shadow plate, no frame), no text, no letters, no numbers, no watermark. Do not change the character into a different robot.\n\nAfter saving, report the output path and its pixel dimensions.",
+  "visualReview": {
+    "inspected": true,
+    "preserved": [
+      "Seated white robot with navy visor and cyan eyes",
+      "Radar tablet",
+      "Target, line-chart card, checklist and bar chart in their original positions",
+      "Dashed connectors",
+      "White, navy, cyan and green palette"
+    ],
+    "improved": [
+      "Crisp contours",
+      "Cleaner material shading",
+      "Sharper small details"
+    ],
+    "textPresent": false,
+    "backgroundRectanglePresent": false
+  },
+  "imageVerification": {
+    "width": 1254,
+    "height": 1254,
+    "alphaChannel": true,
+    "fullyTransparentPixels": 717879,
+    "fullyOpaquePixels": 1590,
+    "partiallyTransparentPixels": 853047,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

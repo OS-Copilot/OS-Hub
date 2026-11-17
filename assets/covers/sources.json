@@ -199,7 +199,7 @@
       "name": "OSReward",
       "homepage": "https://os-copilot.github.io/OSReward-Home/",
       "github": "https://github.com/OS-Copilot/OSReward",
-      "summary": "Evaluates trajectory judges across platforms and releases data and models for computer-use rewards.",
+      "summary": "Measures how reliably VLMs judge computer-use trajectories on 1,019 human-gold runs, and releases open reward models.",
       "role": "Reward evaluation and modeling",
       "cover": "osreward.png",
       "coverKind": "key art",

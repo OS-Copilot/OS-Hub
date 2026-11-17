@@ -102,7 +102,9 @@
           0,
           0
         ]
-      }
+      },
+      "displayPath": "assets/logos/osreward-hd.png",
+      "editRecord": "assets/logos/osreward-hd.json"
     },
     "os-shepherd": {
       "path": "assets/logos/os-shepherd.png",

@@ -158,9 +158,9 @@ export const projects = [
     "id": "osreward",
     "name": "OSReward",
     "homepage": "https://os-copilot.github.io/OSReward-Home/",
-    "summary": "Evaluates trajectory judges across platforms and releases data and models for computer-use rewards.",
+    "summary": "Measures how reliably VLMs judge computer-use trajectories on 1,019 human-gold runs, and releases open reward models.",
     "role": "Evaluation & reward",
-    "question": "How do we judge an agent’s work?",
+    "question": "How reliable is the judge of an agent’s work?",
     "github": "https://github.com/OS-Copilot/OSReward",
     "cover": "assets/covers/osreward.png",
     "color": "#e1bd75",
@@ -169,30 +169,30 @@ export const projects = [
       {
         "name": "OSReward",
         "type": "Benchmark",
-        "description": "Human-annotated computer-use trajectory judgments.",
+        "description": "1,019 human-gold trajectories on four platforms, with Hard and Multi sets.",
         "url": "https://huggingface.co/datasets/OS-Copilot/OSReward",
-        "logo": "assets/logos/osreward.png"
+        "logo": "assets/logos/osreward-hd.png"
       },
       {
         "name": "OS-Shepherd-100K",
         "type": "Data",
-        "description": "Reasoning-annotated trajectory judgments for training.",
+        "description": "Reasoning-annotated judge samples kept by ensemble agreement.",
         "url": "https://huggingface.co/datasets/OS-Copilot/OS-Shepherd-100K",
-        "logo": "assets/logos/osreward.png"
+        "logo": "assets/logos/osreward-hd.png"
       },
       {
         "name": "OS-Shepherd 9B / 35B",
         "type": "Models",
-        "description": "Open reward models trained on OS-Shepherd-100K.",
+        "description": "Open reward models level with commercial judges at far lower cost.",
         "url": "https://huggingface.co/collections/OS-Copilot/osreward-and-os-shepherd",
-        "logo": "assets/logos/osreward.png",
+        "logo": "assets/logos/osreward-hd.png",
         "tags": [
           "9B",
           "35B"
         ]
       }
     ],
-    "logo": "assets/logos/osreward.png",
+    "logo": "assets/logos/osreward-hd.png",
     "orbit": "inner"
   },
   {
