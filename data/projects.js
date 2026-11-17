@@ -41,8 +41,8 @@ export const projects = [
     "id": "scienceboard",
     "name": "ScienceBoard",
     "homepage": "https://qiushisun.github.io/ScienceBoard-Home/",
-    "summary": "Evaluates computer-using agents in scientific workflows with professional software.",
-    "role": "Scientific environments",
+    "summary": "Evaluates computer-using agents on real scientific tasks across professional research software.",
+    "role": "Scientific workflows",
     "question": "Can agents work with scientific software?",
     "github": "https://github.com/OS-Copilot/ScienceBoard",
     "cover": "assets/covers/scienceboard.jpeg",
@@ -50,27 +50,27 @@ export const projects = [
     "angle": -114,
     "resources": [
       {
-        "name": "ScienceBoard benchmark",
+        "name": "Scientific task benchmark",
         "type": "Benchmark",
-        "description": "Task definitions for scientific workflows.",
+        "description": "Explore task definitions for scientific software evaluation.",
         "url": "https://github.com/OS-Copilot/ScienceBoard/tree/main/tasks",
         "logo": "assets/logos/scienceboard-benchmark-hd.png"
       },
       {
-        "name": "ScienceBoard-Env",
+        "name": "Scientific desktop environment",
         "type": "Infrastructure",
-        "description": "The preconfigured Ubuntu virtual machine.",
-        "url": "https://huggingface.co/OS-Copilot/ScienceBoard-Env",
+        "description": "Get the Ubuntu VM image with scientific software preconfigured.",
+        "url": "https://huggingface.co/OS-Copilot/ScienceBoard-Env/blob/main/VM.zip",
         "logo": "assets/logos/scienceboard-env-hd.png",
         "tags": [
           "Ubuntu VM"
         ]
       },
       {
-        "name": "ScienceBoard-Traj",
+        "name": "Agent interaction trajectories",
         "type": "Data",
-        "description": "Recorded agent trajectories.",
-        "url": "https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj",
+        "description": "Browse recorded runs with screenshots and accessibility trees.",
+        "url": "https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj/tree/main",
         "logo": "assets/logos/scienceboard-traj-hd.png"
       }
     ],
